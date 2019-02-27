@@ -26,4 +26,3 @@ Link to your social media connections, too. This theme is set up to use <a href=
 <div class="col three caption">
 	You can even add a little note about which of these is the best way to reach you.
 </div>
-

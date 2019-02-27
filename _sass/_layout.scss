@@ -5,7 +5,7 @@
 
 
 //Hides scrollbar.
-html { overflow-y: hidden; }
+//html { overflow-y: hidden; }
 
 .site-header {
 border-bottom: 1px solid $grey-color-light;
@@ -94,6 +94,11 @@ display: line;
             line-height: 1.7em;
         }
     }
+    img{
+        @media only screen and (max-width:1200px) {
+            margin-top:25px
+        }
+    }
 }
 
 /**
@@ -151,7 +156,7 @@ margin-bottom: $vertical-spacing-unit;
 .contacticon {
 font-size: 60px;
 display:block;
-margin: 10px;
+//margin: 10px;
 }
 .center{
 text-align: center;

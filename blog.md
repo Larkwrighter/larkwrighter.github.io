@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /writing/
-title: Poetry
+permalink: /blog/
+title: Blog
 description: Showcase your writing, short stories, or poems. Replace this text with your description.
 ---
 
