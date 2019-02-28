@@ -8,7 +8,7 @@
 //html { overflow-y: hidden; }
 
 .site-header {
-border-bottom: 1px solid $grey-color-light;
+//border-bottom: 1px solid $grey-color-light;
 background-color: $larkwright_pink;
 background-image: url(/img/header.png);
 opacity: 1;
@@ -40,6 +40,12 @@ text-align: center;
 .page-link{
 color: #fff;
 font-family: 'Fredoka One', cursive;
+    a {
+    &:hover {
+        color: darken($larkwright_pink, 10%);
+        text-decoration: none;
+    }
+}
 line-height: $base-line-height;
         // Gaps between nav items, but not on the first one
 &:not(:first-child) {
@@ -74,7 +80,7 @@ display: line;
     width: 100%;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
+    //padding-bottom: 5px;
     line-height: 5em;
     z-index: 25;
     h1{
@@ -141,6 +147,20 @@ color: $theme-color;
  */
 .page-content {
 padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+    a {
+    color: $larkwright_pink;
+    //text-decoration: underline;
+    font-weight: bold;
+    /*
+    &:visited {
+        color: darken($brand-color, 15%); 
+    }
+    */
+    &:hover {
+        color: darken($larkwright_pink, 10%);
+        text-decoration: none;
+    }
+}
 }
 .page-heading {
 font-size: 20px;
@@ -269,6 +289,28 @@ text-align: center;
 }
 .thumbnail a:hover span {
 display: block;
+}
+.categorybar {
+width: 75%;
+height: 20px;
+vertical-align: middle;
+float: left;
+padding-top: 20px;
+padding-left: 10px;
+padding-bottom: 33.5px;
+
+        h3{
+        font-size:30px;
+        font-family: 'Fredoka One', cursive;
+        text-align: left;
+        padding-bottom: 13.5px;
+        border-bottom-style: solid;
+        border-bottom-width: 3.5px;
+        @media only screen and (max-width: 1200px) {
+            font-size:20px;
+            line-height: 1.7em;
+        }
+    }
 }
 /** 
  * Portfolio pages **********************************************************

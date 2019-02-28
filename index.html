@@ -2,24 +2,36 @@
 layout: default
 ---
 
+
+
 <div class="header-bar">
   <h1>George Larkwright</h1>
-  <h2>Writer, Game Designer & Reluctant Space Cadet</h2>
-  <center><img style="width:225px;height:225px;border-radius:50%" src="/img/prof_pic.png"></center>
+  <h2 id="text"></h2>
+  <center><img style="width:225px;height:225px;border-radius:50%;padding-top:10px" src="/img/prof_pic.png"></center>
 </div>
 
 <!-- Main body text -->
 
-<p>I'm great, and this is my biography.
+<p style="font-size:18px"><b>Hello, I’m George, and I’m a writer and game designer from London, UK.</b>
 <br />
     <br />
-You can see some of the projects I've worked on here.
-<br />
-    <br />
-    I try to document my ongoing projects in my blog.
+I make games that use play to satirise the world we live in, that tell stories in new and dynamic ways, and that strive to subvert the status quo, sparking discussion and debate. I also like to write humorous interactive fiction.
     <br />
     <br />
-   And lastly I'm currently in a phase where I publish every snippet of writing I do. If that interests you have a read of my writing scrapbook here.</p>
+I’m currently working on a trio of short games examining the negative impact of social media on society, as well as an escape room set in a small wooden crate. I write about the development process of these projects in my blog - you can find that <a href="/blog/">here</a>.
+    <br />
+    <br />
+You can find out more about other things I’ve worked on <a href="/projects/">here</a>.
+    <br />
+    <br />
+I’m currently in a feverish state of publishing everything that I write, even if its crap, so should that interest you then you can read my scrapbook <a href="https://thelarkwrightproject.blogspot.com/" target="_blank">here</a>.
+    <br />
+    <br />
+Otherwise, if you want to chat about some (or all) of the above, please get in touch with me over on Twitter or on the good ol’ emails using the links below.
+    <br />
+
+
+</p>
 
 <hr/>
 <br/>
@@ -27,3 +39,24 @@ You can see some of the projects I've worked on here.
 	<a href="mailto:george.larkwright@gmail.com"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://twitter.com/Larkwrighter" target="_blank"><i class="fa fa-twitter-square"></i></a>
 </span>
+
+<script>
+var randomNum = Math.floor(Math.random() * 4)
+
+    
+    if (randomNum == 0) {
+          text = "Writer, Game Designer & Reluctant Space Cadet";
+      }
+    if (randomNum == 1) {
+          text = "Writer, Game Designer & Wayward Dreamer";
+      }
+    if (randomNum == 2) {
+          text = "Writer, Game Designer & Procedurally Generated Third Thing";
+      }
+    if (randomNum == 3) {
+          text = "Writer, Game Designer & Expert Bassoonist";
+      }
+    
+document.getElementById("text").innerHTML = text;
+    
+</script>
