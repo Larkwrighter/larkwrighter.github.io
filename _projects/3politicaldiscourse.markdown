@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Project
-description: a project with no image
+title: Political Discourse Circa 2019
+description: Let's try and track why the world is so divided, eh?
 img: 
 category: game
 ---
@@ -14,7 +14,7 @@ To give your project a background in the portfolio page, just add the img tag to
 	layout: post
 	title: Project
 	description: a project with a background image
-	img: {{ site.baseurl }}/img/12.jpg
+	img: /img/12.jpg
 	---
 
 

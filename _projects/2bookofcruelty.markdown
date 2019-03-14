@@ -1,8 +1,8 @@
 ---
 layout: post
-title: IF
-description: a project with a background image
-img: /img/12.jpg
+title: Book of Cruelty
+description: A horrifying historical document, reimagined in Twine.
+img: /img/bokavgrymhet.png
 category: interactive fiction
 ---
 

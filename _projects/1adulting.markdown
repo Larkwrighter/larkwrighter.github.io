@@ -1,22 +1,22 @@
 ---
 layout: post
-title: Project
-description: a project with a background image
-img: /img/1.jpg
-category: interactive fiction
+title: Adulting
+description: A physical game experience centred around the completion of chores.
+img: /img/adultingscreenshot.png
+category: game
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+<div class="video_embed">
+<iframe src="https://player.vimeo.com/video/306834298" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
-
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /img/12.jpg
-	---
-
+<div class="project_info">
+    Description: A physical game experience centred around the completion of chores.<br/>
+    Platform: PC/Physical<br/>
+    Team Size: Three<br/>
+    Project Length: Two Months<br/>
+    Responsibilities: Game design, code, UI design.<br/>
+</div>
 
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>

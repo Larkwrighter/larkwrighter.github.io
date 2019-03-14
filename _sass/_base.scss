@@ -122,11 +122,20 @@ h1 {
     opacity: 0.90;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h5, h6 {
     font-weight: 100;
     font-family: 'Fredoka One', cursive;
     text-align: center;
-    
+    opacity: 0.90;
+}
+
+h4 {
+    font-weight: 100;
+    font-size: 90%;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: $larkwright-pink;
+    opacity: 0.90;
 }
 
 
@@ -207,8 +216,8 @@ pre {
  */ 
 
 .wrapper {
-    max-width: -webkit-calc(1000px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(1000px - (#{$horizontal-spacing-unit} * 2));
+    max-width: -webkit-calc(1400px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(1400px - (#{$horizontal-spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $horizontal-spacing-unit;
@@ -216,14 +225,14 @@ pre {
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(1000px - (#{$horizontal-spacing-unit}));
-        max-width:         calc(1000px - (#{$horizontal-spacing-unit}));
+        max-width: -webkit-calc(1200px - (#{$horizontal-spacing-unit}));
+        max-width:         calc(1200px - (#{$horizontal-spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(600px - (#{$horizontal-spacing-unit}));
-        max-width:         calc(600px - (#{$horizontal-spacing-unit}));
+        max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
+        max-width:         calc(800px - (#{$horizontal-spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
