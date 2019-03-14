@@ -6,19 +6,28 @@ img: /img/adultingscreenshot.png
 category: game
 ---
 
-<div class="video_embed">
-<iframe src="https://player.vimeo.com/video/306834298" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div>
+<iframe class="video_embed" src="https://player.vimeo.com/video/306834298" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<div class="project_info" style="padding-top: 21px;">
+<b>Description:</b> A physical game experience centred around the completion of chores.<br/>
+<b>Platform:</b> PC/Physical<br/>
+<b>Team Size:</b> Three<br/>
+<b>Project Length:</b> Two Months<br/>
+<b>Responsibilities:</b> Game design, code, UI design.<br/>
 </div>
 
-<div class="project_info">
-    Description: A physical game experience centred around the completion of chores.<br/>
-    Platform: PC/Physical<br/>
-    Team Size: Three<br/>
-    Project Length: Two Months<br/>
-    Responsibilities: Game design, code, UI design.<br/>
-</div>
 
-<div class="img_row">
+<div style="position:relative"><h3>What is Adulting?</h3>
+<br/>
+<br/>
+Adulting? is a physical game experience in which the player briefly steps into the shoes of a parent, tasked with completing three different chores in the midst of a set of chaotic deadlines, all whilst their child vies for their attention.
+<br/>
+<br/>
+The game melds WarioWare-style minigames with a physical game-space and control inputs, and a real actor, straddling the line between game and interactive theatre piece.</div>
+
+
+<!--<div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
 	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
 	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
@@ -54,3 +63,4 @@ The code is simple. Just add a col class to your image, and another class specif
 	  <img class="col two" src="/img/6.jpg"/>
 	  <img class="col one" src="/img/11.jpg"/>
 	</div>
+-->

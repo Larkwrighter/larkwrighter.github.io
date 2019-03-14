@@ -27,10 +27,10 @@ permalink: /projects/
         </span>
         </a>
     </div>
-    <h4 style="padding-top:5px">{{ project.title }}</h4>
+    <h4 style="padding-top:5px;text-align:left">{{ project.title }}</h4>
 </div>
 {% else %}
-<div class="project ">
+<div class="project">
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}
@@ -45,7 +45,7 @@ permalink: /projects/
         </span>
         </a>
     </div>
-    <h4 style="padding-top:5px">{{ project.title }}</h4>
+    <h4 style="padding-top:5px;padding-bottom:50px;margin">{{ project.title }}</h4>
 </div>
 {% endif %}
 
