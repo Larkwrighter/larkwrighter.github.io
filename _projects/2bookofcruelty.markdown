@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Book of Cruelty
+year: 2018
 description: A horrifying historical document, reimagined in Twine.
 img: /img/bokavgrymhet.png
 category: interactive fiction

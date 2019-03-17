@@ -370,6 +370,11 @@ width: 66.66%;
 .three{
 width: 100%;
 }
+.half {
+width: 50%;
+height: 95%;
+overflow: hidden;
+}
 .caption{
 height: 100%;
 color: $caption_color;
@@ -384,14 +389,15 @@ float: left;
 font-size: 14px;
 width: 300px;
 line-height:2em;
+padding-bottom: 20px;
 //padding-left: 600px;
 //padding-top: 20px;
-//position: sticky;
+position: relative;
     @media only screen and (max-width: 1200px) {
     width: 40%;   
     }
     @media only screen and (max-width: 800px) {
-    width: 300px;
+    width: 100%;
     }
 }
 .video_embed{
@@ -409,7 +415,36 @@ padding-right: 20px;
     }
     @media only screen and (max-width: 800px) {
     width: 320px;
+    width: 320px;
     height: 240px;
+    }
+}
+.project_body{
+    position: relative;
+    padding-top: 320px;
+    display: block;
+    @media only screen and (max-width: 686px) {
+    width: 100%;
+    }
+    @media only screen and (max-width: 1200px) {
+    padding-top: 280px;
+    }
+            h5{
+        width: 50%;
+        font-size:24px;
+        font-family: 'Fredoka One', cursive;
+        text-align: left;
+        padding-bottom: 5px;
+        border-bottom-style: solid;
+        border-bottom-width: 2.5px;
+            @media only screen and (max-width: 1200px) {
+                font-size:20px;
+            }
+            @media only screen and (max-width: 600px) {
+                font-size:20px;
+                line-height: 1.2em;
+                padding-bottom: 0px;
+            }
     }
 }
 /**

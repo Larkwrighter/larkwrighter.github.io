@@ -27,7 +27,7 @@ permalink: /projects/
         </span>
         </a>
     </div>
-    <h4 style="padding-top:5px;text-align:left">{{ project.title }}</h4>
+    <h4 style="padding-top:5px;text-align:left">{{ project.title }} ({{project.year}})</h4>
 </div>
 {% else %}
 <div class="project">
@@ -45,7 +45,7 @@ permalink: /projects/
         </span>
         </a>
     </div>
-    <h4 style="padding-top:5px;padding-bottom:50px;margin">{{ project.title }}</h4>
+    <h4 style="padding-top:5px;padding-bottom:50px;margin">{{ project.title }} ({{project.year}})</h4>
 </div>
 {% endif %}
 
@@ -78,7 +78,7 @@ permalink: /projects/
         </span>
         </a>
     </div>
-    <h4 style="padding-top:5px">{{ project.title }}</h4>
+    <h4 style="padding-top:5px">{{ project.title }} ({{project.year}})</h4>
 </div>
 {% else %}
 <div class="project ">
@@ -96,7 +96,7 @@ permalink: /projects/
         </span>
         </a>
     </div>
-    <h4 style="padding-top:5px">{{ project.title }}</h4>
+    <h4 style="padding-top:5px">{{ project.title }} ({{project.year}})</h4>
 </div>
 {% endif %}
 

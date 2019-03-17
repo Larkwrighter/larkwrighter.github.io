@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Political Discourse Circa 2019
+year: 2019
 description: Let's try and track why the world is so divided, eh?
 img: 
 category: game

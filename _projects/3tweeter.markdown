@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Nobody Cares What You Have To Say
+year: 2019
 description: A social media post generator that successfully misrepresents reality, just like real social media!
 img: /img/tweeter.png
 category: interactive fiction

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: DataMine
+year: 2019
 description: Using meaningless choices to highlight the insidious nature of dark money advertising on social media.
 img: /img/sm.PNG
 category: game

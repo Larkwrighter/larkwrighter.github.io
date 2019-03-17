@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Ballad of Sir Prisepartie
+year: 2018
 description: A comedy text adventure game about a party-planning knight
 img: /img/prisepartielogo.PNG
 category: interactive fiction
