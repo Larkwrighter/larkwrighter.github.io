@@ -6,17 +6,16 @@ description: A physical game experience centred around the completion of chores.
 img: /img/adultingscreenshot.png
 category: game
 ---
-
-<div>
-<iframe class="video_embed" src="https://player.vimeo.com/video/306834298" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-<div class="project_info" style="padding-top: 21px;">
+<div class="span_row">
+<div class="span_col video"><iframe src="https://player.vimeo.com/video/325532325" class="video_embed" width="480" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="project_info" style="padding-top: 21px;width: 300px;">
 <b>Description:</b> A physical game experience centred around the completion of chores.<br/>
 <b>Platform:</b> PC/Physical<br/>
 <b>Engine:</b> Unity/Physical<br />
 <b>Team Size:</b> Three<br/>
 <b>Project Length:</b> Two months<br/>
 <b>Responsibilities:</b> Game design, code, UI design.<br/>
+</div>
 </div>
 
 <div class="project_body"><h5>What is Adulting?</h5>

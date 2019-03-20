@@ -7,6 +7,16 @@ img: /img/tweeter.png
 category: interactive fiction
 ---
 
+<img class="project_img" style="padding-bottom: 40px;" src="{{ site.baseurl }}/img/sirpp2.png" alt="" title="Sir Prisepartie Screenshot 1"/>
+<div class="project_info" style="padding-left: 20px;width:400px;">
+<b>Description:</b> A social media post generator that successfully misrepresents reality, just like real social media!<br/>
+<b>Platform:</b> PC<br/>
+<b>Engine:</b> Twine (Harlowe)<br />
+<b>Project Length:</b> Six months<br/>
+</div>
+<div class="project_body"><h5>What is Book of Cruelty?</h5>
+<br/>
+
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
