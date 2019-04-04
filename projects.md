@@ -96,7 +96,7 @@ permalink: /projects/
         </span>
         </a>
     </div>
-    <h4 style="padding-top:5px">{{ project.title }} ({{project.year}})</h4>
+    <h4 style="padding-top:5px;">{{ project.title }} ({{project.year}})</h4>
 </div>
 {% endif %}
 

@@ -5,7 +5,7 @@ permalink: /blog/
 ---
 
 <ul class="post-list">
-    {% for post in site.blog %}
+    {% for post in site.blog reversed %}
       <li>
         <h2 style="padding-bottom: 10px;"><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <!--<div class="blog-img">

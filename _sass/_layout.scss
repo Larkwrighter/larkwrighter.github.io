@@ -197,6 +197,17 @@ line-height: 1;
 font-size: 36px;
     }
 }
+.blog-header {
+font-size: 36px;
+letter-spacing: -1px;
+line-height: 1;
+width:80%;
+margin-left:10%;
+padding-bottom: 10px;
+@include media-query($on-laptop) {
+font-size: 30px;
+    }
+}
 .post-title {
 font-size: 26px;
 letter-spacing: -1px;
@@ -230,7 +241,7 @@ font-size: 18px;
 float: left;
 font-size: $small-font-size;
 color: $grey-color;
-margin-bottom: 0px; 
+margin-bottom: 0px;
 }
 .post-link {
 display: block;
@@ -263,7 +274,7 @@ clear: both;
 }
 .project {
 width: 33.33%;
-height: 270px;
+height: 290px;
 float: left;
 vertical-align: middle;
 box-sizing: border-box;
@@ -447,17 +458,6 @@ padding: $img_spacing;
 /**
  * Blog  **********************************************************
  */
-.blog-img {
-padding-top: 20px;
-float: left;
-position: absolute;
-width: 200px;
-height: 200px;
-overflow: hidden;
-    @media only screen and (max-width: 600px) {
-        align-content: center;
-    }
-}
 
 .thumbnail img{
 width: 100%;
@@ -465,6 +465,32 @@ height: 230px;
 position: absolute;
 //left: -25%;
 //top: -5%;
+}
+
+.blog_img {
+width: 50%;
+display: block;
+padding-top:20px;
+//padding-bottom: 20px;
+margin-left: auto; 
+margin-right: auto;
+}
+
+.blog_caption {
+height: 100%;
+width: 100%;
+color: $caption_color;
+text-align: center;
+vertical-align: middle;
+font-size: $caption_font_size;
+}
+
+.blog-meta {
+float: left;
+font-size: $small-font-size;
+color: $grey-color;
+margin-bottom: 0px;
+padding-top: 15px;
 }
 /**
  * Layout Misc  **********************************************************

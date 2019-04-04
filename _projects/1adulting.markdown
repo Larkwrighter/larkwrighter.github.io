@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Adulting?
 year: 2018
 description: A physical game experience centred around the completion of chores.
@@ -10,6 +10,7 @@ category: game
 <div class="span_col video"><iframe src="https://player.vimeo.com/video/325532325" class="video_embed" width="480" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 <div class="project_info" style="padding-top: 21px;width: 300px;">
 <b>Description:</b> A physical game experience centred around the completion of chores.<br/>
+<b>Released:</b> January 2019<br />
 <b>Platform:</b> PC/Physical<br/>
 <b>Engine:</b> Unity/Physical<br />
 <b>Team Size:</b> Three<br/>
@@ -18,7 +19,7 @@ category: game
 </div>
 </div>
 
-<div class="project_body"><h5>What is Adulting?</h5>
+<div class="project_body"><h5>What is <i>Adulting?</i></h5>
 <br/>
 <b>Adulting?</b> is a physical game experience in which the player briefly steps into the shoes of a parent, tasked with completing three different chores in the midst of a set of chaotic deadlines, all whilst their child vies for their attention.
 <br/>
@@ -26,7 +27,7 @@ category: game
 The game melds WarioWare-style minigames with a physical game-space and control inputs, and a real actor, straddling the line between game and interactive theatre piece. It forces players to examine what they prioritise, both inside and outside the game world.
 <br/>
 <br/>
-<h5>Summary of Responsibilities</h5>
+<h5>Summary of Contributions</h5>
 <br/>
 <ul style="margin-bottom:0px;">
 <li>I was jointly responsible for the design of the game, from initial concept through to completion.</li>

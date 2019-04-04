@@ -1,29 +1,22 @@
 ---
 layout: post
-title: The Subject - Building the World's Smallest Escape Room
+title: The Subject Blog 1 – Buried Alive, The Game
 date: 2019-03-14
-category: The Subject Devlog
-description: march & april, looking forward to summer
+category: The Subject
+description:
 ---
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" target="blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" target="blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+It’s the middle of March 2019, and I’ve got this idea that I can’t shake. Wouldn’t it be fun to be locked in a small box, and only allowed out after solving a series of puzzles? I mean, of course it wouldn’t be fun, what with the debilitating dread and claustrophobia, but it would certainly be a unique playable experience that would stick with participants after they’ve escaped.
 
-#### Hipster list
-<ul>
-	<li>brunch</li>
-	<li>fixie</li>
-	<li>raybans</li>
-	<li>messenger bag</li>
-</ul>
+The idea came to me after watching Kill Bill Vol. 2. I’m thinking of the <a href="https://www.youtube.com/watch?v=dpfoqUDHjUw">coffin escape scene</a> in which The Bride is trapped in a wooden coffin by Michael Madsen’s character and left to die. The film uses close camera angles and natural torchlight to extinguish any idea that this is just a film; as a viewer you feel the anguish of The Bride’s struggle, you imagine yourself in a similar scenario, and it is simultaneously thrilling to think of the number of ingenious ways you’d escape, and terrifying to consider the consequences of failing to escape.
+<img class="blog_img" style="padding-top:30px" src="{{ site.baseurl }}/img/blog/crate.jpg" alt="" title="My Crate"/>
+<div class="blog_caption" style="padding-bottom: 20px;padding-top: 0px;">
+	The kind of crate I might set my escape room in.</div>
+I’m really interested in experimenting with stress as a mechanic; how does debilitating dread affect a player’s ability to solve complex puzzles? The problem I have with modern escape rooms is that they are far too relaxed. They’ve become a party experience that groups of middle-class millennials do before drinks, or that corporate bigwigs attend as team building exercises. There are no stakes attached to failure. The ‘we escaped’ photos taken at the aftermath of the experience are a sad indictment of what escape rooms have become; a experience driven by social media, for social media. 
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan. 
+Fuck that. 
 
-<hr>
-<br/>
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar. 
+I want to strip users of their phones and lock them in a box with only a torch and their own ingenuity. I don’t want people to finish the game and be giggling and merry and ready for a selfie; I want participants to emerge haggard, almost aged by the experience, but also triumphant, proud of navigating a game that is both physically and mentally taxing.
 
-<blockquote>
-	We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another. 
-	—Anais Nin
-</blockquote>
+The Subject may not necessarily be fun in the traditional sense, but it will certainly be memorable. I’m looking forward to doing further work on this idea and seeing if I can make a game out of it. 
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+...Setting an escape room in a small box would also make it the smallest escape room in the world, which is always a nice accolade to have for marketing purposes.
