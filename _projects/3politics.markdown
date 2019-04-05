@@ -7,7 +7,7 @@ img: /img/pd3.png
 category: game
 ---
 
-<img class="project_img" style="padding-bottom: 40px;" src="{{ site.baseurl }}/img/pd1.png" alt="" title="Sir Prisepartie Screenshot 1"/>
+<img class="project_img" style="padding-bottom: 40px;" src="{{ site.baseurl }}/img/pd1.png" alt="" title="Political Discourse Screenshot"/>
 <div class="project_info" style="padding-left: 20px;width:400px;">
 <b>Description:</b> A whimsical wander through the influences and powers behind modern day politics.<br/>
 <b>Released:</b> April 2019<br />
@@ -26,7 +26,7 @@ The worst part is that we, the general public, don’t seem to be fully aware of
 The content of this game is based on the work of <a href="https://www.opendemocracy.net/en/" target="_blank">OpenDemocracy</a>, as well as other investigative journalists working to uncover the influence of dark money, right-wing lobbying groups and foreign influences on our democracy.
 <br/><br/>
 <div class="img_row">
-	<img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/pd4.png" alt="" title="Tax Returns Minigame"/>
-    <img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/pd5.png" alt="" title="Playspace"/>
+	<img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/pd4.png" alt="" title="PD Screenshot 1"/>
+    <img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/pd5.png" alt="" title="PD Screenshot 2"/>
 </div>
 <br/>

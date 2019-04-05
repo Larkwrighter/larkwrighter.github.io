@@ -7,7 +7,7 @@ img: /img/dm.PNG
 category: game
 ---
 
-<img class="project_img" style="padding-bottom: 40px;" src="{{ site.baseurl }}/img/dm1.gif" alt="" title="Sir Prisepartie Screenshot 1"/>
+<img class="project_img" style="padding-bottom: 40px;" src="{{ site.baseurl }}/img/dm1.gif" alt="" title="DataMine GIF"/>
 <div class="project_info" style="padding-left: 20px;width:400px;">
 <b>Description:</b> A work-in-progress game that will use meaningless choices to highlight the insidious nature of dark money advertising on social media.<br/>
 <b>Platform:</b> PC<br/>

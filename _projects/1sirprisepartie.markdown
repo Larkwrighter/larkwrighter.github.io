@@ -31,7 +31,7 @@ Help him plan the Princess' sixteenth birthday party using only your wit, your i
 Humorous writing! Captivating illustrations! Three endings, including a hidden horse ending! The Ballad of Sir Prisepartie is fun for all the family, and definitely one of the greatest pieces of interactive fiction about a party-planning knight.
 <br/>
 <br/>
-<a href="https://larkwrighter.itch.io/the-ballad-of-sir-prisepartie" target="_blank">The Ballad of Sir Prisepartie is currently viewable on itch.io.</a>
+<a href="https://larkwrighter.itch.io/the-ballad-of-sir-prisepartie" target="_blank"><i>The Ballad of Sir Prisepartie</i> is currently viewable on itch.io.</a>
 <br/>
 <br/>
 <div class="img_row">

@@ -1,68 +1,37 @@
-<!-----
+---
 layout: page
 title: Nobody Cares What You Have To Say
 year: 2019
 description: A collection of short stories examining the distortion of reality on social media. 
 img: /img/tweeter.png
 category: interactive fiction
------>
+---
 
-<img class="project_img" style="padding-bottom: 40px;" src="{{ site.baseurl }}/img/sirpp2.png" alt="" title="Sir Prisepartie Screenshot 1"/>
+<img class="project_img" style="padding-bottom: 40px;" src="{{ site.baseurl }}/img/tw1.png" alt="" title="Title Screen"/>
 <div class="project_info" style="padding-left: 20px;width:400px;">
-<b>Description:</b> A social media post generator that successfully misrepresents reality, just like real social media!<br/>
-<b>Released:</b> April 2019<br />
+<b>Description:</b> A collection of short stories examining the distortion of reality on social media.<br/>
+<b>Released:</b> April 2019 (Soon)<br />
 <b>Platform:</b> PC<br/>
 <b>Engine:</b> Twine (Harlowe)<br />
 <b>Project Length:</b> Two Months<br/>
 </div>
-<div class="project_body"><h5>What is Nobody Cares What You Have To Say?</h5>
+<div class="project_body"><h5>What is <i>Nobody Cares What You Have To Say</i>?</h5>
 <br/>
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+<b>Nobody Cares What You Have To Say</b> is a satirical piece of interactive fiction that takes social media posts and examines the real stories behind them. Through its compendium of humorous short stories, the piece pokes fun at the banality and scope for misrepresentation that sits at the core of the social media experience.
+<br/><br/>
+Choose a scenario, make further choices, and find out what your adopted character gets up to before they post online. From Taekwondo instructors to cat owners, fisherman to gravel munchers, every corner of society is reflected in this work, with their foibles laid bare for everyone to see. But for real this time; not just a self-edited, airbrushed social media snapshot.
+<br/><br/>
+There are over ten characters to discover, and over thirty different stories to read.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
-
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /img/12.jpg
-	---
+Nobody Cares What You Have To Say is the first of a trio of interactive works I'm making that examine the impact of social media on society. It will soon be readable on itch.io.
+<br/><br/>
 
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+	<img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/tw3.png" alt="" title="A social media post"/>
+    <img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/tw4.png" alt="" title="Game screenshot"/>
 </div>
-<div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+<div class="col three caption" style="padding-bottom: 20px;padding-top: 0px;">
+	On the left, one of the 30+ endings to the piece. On the right, standard Twine screenshot.
 </div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic. 
-</div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
-
-	<div class="img_row">
-	  <img class="col two" src="/img/6.jpg"/>
-	  <img class="col one" src="/img/11.jpg"/>
-	</div>

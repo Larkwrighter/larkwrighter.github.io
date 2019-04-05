@@ -23,7 +23,7 @@ King Eric XIV ruled Sweden from 1560 to 1568. It was a reign characterised by ma
 ...Of course, most of this is fiction. King Eric XIV of Sweden is real, but - as far as I'm aware - his Book of Cruelty is not. I wanted to create a short Twine piece that tries to affect the player's expectations before playing (using the preface above), resulting in enhancing the predilection towards certain emotions whilst playing (psychological horror and dread).
 <br/><br/>
 
-<b><a href="https://larkwrighter.itch.io/book-of-cruelty"><i>Book of Cruelty</i> is readable now on itch.io.</a></b><br/>
+<b><a href="https://larkwrighter.itch.io/book-of-cruelty" target="_blank"><i>Book of Cruelty</i> is readable now on itch.io.</a></b><br/>
 <br/>
 <div class="img_row">
 	<img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/bc3.png" alt="" title="Book of Cruelty Screenshot 2"/>

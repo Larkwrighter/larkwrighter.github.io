@@ -36,8 +36,8 @@ The goal of the game is collect nectar from the flowers, pollinating them as you
 </ul>
 <br/>
 <div class="img_row">
-	<img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/bee2.png" alt="" title="Tax Returns Minigame"/>
-    <img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/bee5.png" alt="" title="Playspace"/>
+	<img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/bee2.png" alt="" title="Bee Screenshot"/>
+    <img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/bee5.png" alt="" title="Bee Script"/>
 </div>
 <div class="col three caption" style="padding-bottom: 20px;padding-top: 0px;">
 	On the left, screenshot of a WIP build of the game. On the right, an excerpt of the bark lines section of the script.
