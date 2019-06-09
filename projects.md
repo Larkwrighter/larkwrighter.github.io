@@ -45,7 +45,7 @@ permalink: /projects/
         </span>
         </a>
     </div>
-    <h4 style="padding-top:5px;padding-bottom:50px;margin">{{ project.title }} ({{project.year}})</h4>
+    <h4 style="padding-top:5px;padding-bottom:50px;">{{ project.title }} ({{project.year}})</h4>
 </div>
 {% endif %}
 
@@ -61,6 +61,57 @@ permalink: /projects/
 {% for project in site.projects %}
 
 {% if project.category == 'interactive fiction' %}
+
+{% if project.redirect %}
+<div class="project">
+    <div class="thumbnail">
+        <a href="{{ project.redirect }}" target="_blank">
+        {% if project.img %}
+        <img class="thumbnail" src="{{ project.img }}"/>
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}    
+        <span>
+            <h4>{{ project.title }}</h4>
+            <br/>
+            <p>{{ project.description }}</p>
+        </span>
+        </a>
+    </div>
+    <h4 style="padding-top:5px;padding-bottom:50px;">{{ project.title }} ({{project.year}})</h4>
+</div>
+{% else %}
+<div class="project ">
+    <div class="thumbnail">
+        <a href="{{ site.baseurl }}{{ project.url }}">
+        {% if project.img %}
+        <img class="thumbnail" src="{{ project.img }}"/>
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}    
+        <span>
+            <h4>{{ project.title }}</h4>
+            <br/>
+            <p>{{ project.description }}</p>
+        </span>
+        </a>
+    </div>
+    <h4 style="padding-top:5px;padding-bottom:50px;">{{ project.title }} ({{project.year}})</h4>
+</div>
+{% endif %}
+
+
+{% endif %}
+
+{% endfor %}
+
+<div class="categorybar" style="padding-top: 32px">
+<h3>Other Projects</h3>
+</div>
+
+{% for project in site.projects %}
+
+{% if project.category == 'other' %}
 
 {% if project.redirect %}
 <div class="project">
@@ -99,7 +150,6 @@ permalink: /projects/
     <h4 style="padding-top:5px;">{{ project.title }} ({{project.year}})</h4>
 </div>
 {% endif %}
-
 
 {% endif %}
 

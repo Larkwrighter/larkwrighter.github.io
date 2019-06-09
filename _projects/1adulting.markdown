@@ -59,7 +59,7 @@ By using a real actor to represent the child, we ensured that no playthrough is 
     <img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/gameplay2.png" alt="" title="Gameplay Photo 2"/>
 </div>
 <br/>
-<h5>What's next for Adulting?</h5>
+<h5>What's next for <i>Adulting?</i></h5>
 <br/>
 In two months we managed to build and playtest a fully-functioning prototype of a high-octane meaningful playable experience. Given more time, we believe we can make <b>Adulting?</b> even better.
 <br/>
