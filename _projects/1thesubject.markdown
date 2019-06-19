@@ -46,7 +46,7 @@ I also wanted to try and redefine what escape room games can be. I believe that 
     <img class="col half" style="padding-bottom: 0px;" src="{{ site.baseurl }}/img/ts4.jpg" alt="" title="Gameplay Photo 2"/>
 </div>
 <div class="col three caption" style="padding-bottom: 20px;padding-top: 0px;">
-	On the left, a play explores the clues (took this photo outside the game experience, for obvious reasons). The photo on the right shows a sample of the materials available to players outside of the box.
+	On the left, a player explores the clues (took this photo outside the game experience, for obvious reasons). The photo on the right shows a sample of the materials available to players outside of the box.
 </div>
 <br/>
 <h5>What's next for <i>The Subject?</i></h5>
