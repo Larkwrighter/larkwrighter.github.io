@@ -51,7 +51,7 @@ I also wanted to try and redefine what escape room games can be. I believe that 
 <br/>
 <h5>What's next for <i>The Subject?</i></h5>
 <br/>
-I have only had the opportunity to do one playtest of the full experience, so the next step is definitely to arrange a few more runthroughs with different players to further refine the play experience.
+I have only had the opportunity to do one playtest of the full experience, so the next step is definitely to arrange a few more run-throughs with different players to further refine the play experience.
 <br/>
 <br/>
 I'm also looking into ways to improve the material outside of the box. In previous tests players have been given a folder with different papers, and are expected to read through them to discover the clues they need to guide the player in the box. However, a big aspect of escape rooms is the interactive, kinaesthetic nature of the puzzles, and I haven't quite managed to capture that with my materials. I also feel there is room for improvement of the quantity of messages inside the box. My goal would be to fully plaster the interior of the box, but I need to be careful not to overwhelm the player - I will wait until after I've conducted further playtests to make a final decision on this.
