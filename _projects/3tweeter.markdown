@@ -2,14 +2,14 @@
 layout: page
 title: Nobody Cares What You Have To Say
 year: 2019
-description: A collection of short stories examining the distortion of reality on social media. 
+description: A collection of short stories examining the distortion of reality by social media. 
 img: /img/tweeter.png
 category: interactive fiction
 ---
 
 <img class="project_img" style="padding-bottom: 40px;" src="{{ site.baseurl }}/img/tw1.png" alt="" title="Title Screen"/>
 <div class="project_info" style="padding-left: 20px;width:400px;">
-<b>Description:</b> A collection of short stories examining the distortion of reality on social media.<br/>
+<b>Description:</b> A collection of short stories examining the distortion of reality by social media.<br/>
 <b>Released:</b> April 2019 (Soon)<br />
 <b>Platform:</b> PC<br/>
 <b>Engine:</b> Twine (Harlowe)<br />

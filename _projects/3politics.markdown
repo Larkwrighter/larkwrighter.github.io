@@ -2,14 +2,14 @@
 layout: page
 title: Political Discourse Circa 2019
 year: 2019
-description: A whimsical wander through the influences and powers behind modern day politics.
+description: A whimsical wander through the influences and powers behind modern-day politics.
 img: /img/pd3.png
 category: game
 ---
 
 <img class="project_img" style="padding-bottom: 40px;" src="{{ site.baseurl }}/img/pd1.png" alt="" title="Political Discourse Screenshot"/>
 <div class="project_info" style="padding-left: 20px;width:400px;">
-<b>Description:</b> A whimsical wander through the influences and powers behind modern day politics.<br/>
+<b>Description:</b> A whimsical wander through the influences and powers behind modern-day politics.<br/>
 <b>Released:</b> April 2019<br />
 <b>Platform:</b> PC<br/>
 <b>Engine:</b> Bitsy<br />
