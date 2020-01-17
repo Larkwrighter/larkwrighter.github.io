@@ -3,7 +3,7 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
-
+<div class="wrapper">
 <ul class="post-list">
     {% for post in site.blog reversed %}
       <li>
@@ -22,3 +22,4 @@ permalink: /blog/
       </li>
     {% endfor %}
 </ul>
+</div>

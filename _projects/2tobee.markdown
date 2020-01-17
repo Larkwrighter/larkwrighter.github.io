@@ -4,7 +4,7 @@ title: To Bee or Not To Bee
 year: 2019
 description: An educational VR experience that places you in the body of a bee.
 img: /img/bee1.png
-category: game
+category: big game
 ---
 
 <div class="span_row">

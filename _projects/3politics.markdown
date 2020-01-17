@@ -4,7 +4,7 @@ title: Political Discourse Circa 2019
 year: 2019
 description: A whimsical wander through the influences and powers behind modern-day politics.
 img: /img/pd3.png
-category: game
+category: small game
 ---
 
 <img class="project_img" style="padding-bottom: 40px;" src="{{ site.baseurl }}/img/pd1.png" alt="" title="Political Discourse Screenshot"/>

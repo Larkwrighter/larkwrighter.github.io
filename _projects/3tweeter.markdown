@@ -2,7 +2,7 @@
 layout: page
 title: Nobody Cares What You Have To Say
 year: 2019
-description: A collection of short stories examining the distortion of reality by social media. 
+description: A collection of short stories examining the distortion of reality by social media.
 img: /img/tweeter.png
 category: interactive fiction
 ---

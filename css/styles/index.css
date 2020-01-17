@@ -12,25 +12,25 @@ code {
 
 strong,
 b {
-    font-weight: 700
+    font-weight: 700;
 }
 
 em,
 i {
-    font-style: italic
+    font-style: italic;
 }
 
 a {
-    color: #2196f3
+    color: #2196f3;
 }
 
 ul,
 p {
-    margin: 0 0 20px
+    margin: 0 0 20px;
 }
 
 li {
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 
 li,
@@ -162,7 +162,7 @@ header .intro:last-child {
     top: 0;
     right: 0;
     bottom: 0;
-    z-index: 1;    
+    z-index: 1;
 }
 
 @-webkit-keyframes loading-spinner-rotate {
@@ -793,7 +793,7 @@ h2 {
   width: 30%;
 }
 
-/* Clear floats after rows */ 
+/* Clear floats after rows */
 .row:after {
   content: "";
   display: table;

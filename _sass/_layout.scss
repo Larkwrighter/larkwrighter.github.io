@@ -154,7 +154,7 @@ padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
     font-weight: bold;
     /*
     &:visited {
-        color: darken($brand-color, 15%); 
+        color: darken($brand-color, 15%);
     }
     */
     &:hover {
@@ -259,7 +259,7 @@ font-size: 16px;
 }
 
 
-/** 
+/**
  * Portfolio grid **********************************************************
 */
 // Nicolas Gallagher's micro clearfix hack
@@ -274,54 +274,37 @@ clear: both;
 }
 .project {
 width: 33.33%;
-height: 290px;
+height: auto;
 float: left;
 vertical-align: middle;
 box-sizing: border-box;
 padding: 10px;
     @media only screen and (max-width: 1200px) {
-    width: 40%;   
+    width: 40%;
     }
     @media only screen and (max-width: 800px) {
     width: 300px;
     }
 }
-.thumbnail{
+.thumbnail {
 width: 100%;
-height: 230px;
+height: 100%;
+object-fit: cover;
+object-position: top;
 overflow: hidden;
+position: absolute;
     @media only screen and (max-width: 600px) {
         align-content: center;
     }
 }
-.thumbnail img{
-width: 100%;
-height: 230px;
-position: relative;
-//left: -25%;
-//top: -5%;
-}
-.thumbnail a{
+
+.thumbnail a {
 float: left;
 position: relative;
 width: 100%;
-height: 230px;
+height: 100%;
 }
-.thumbnail a span {
-display: none;
-position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-background: rgba(0,0,0,0.8);
-color: $grey-color-light;
-padding: 20px;
-text-align: center;
-}
-.thumbnail a:hover span {
-display: block;
-}
+
 .categorybar {
 width: 75%;
 height: 20px;
@@ -348,7 +331,7 @@ padding-bottom: 30px;
             }
     }
 }
-/** 
+/**
  * Portfolio pages **********************************************************
 */
 .blankbox{
@@ -361,7 +344,7 @@ overflow: hidden;
 box-sizing:border-box;
 padding: $img_spacing;
 }
-.col{ 
+.col{
 width: 100%;
 height: 100%;
 float: left;
@@ -404,7 +387,7 @@ padding-bottom: 20px;
 //padding-top: 20px;
 position: relative;
     @media only screen and (max-width: 1200px) {
-    width: 40%;   
+    width: 40%;
     }
     @media only screen and (max-width: 800px) {
     width: 100%;
@@ -447,7 +430,7 @@ height: 320px;
     }
 }
 // project_img class takes images of 1200x800.
-.project_img{ 
+.project_img{
 width: 45%;
 height: 45%;
 float: left;
@@ -472,7 +455,7 @@ width: 50%;
 display: block;
 padding-top:20px;
 //padding-bottom: 20px;
-margin-left: auto; 
+margin-left: auto;
 margin-right: auto;
 }
 
@@ -501,7 +484,7 @@ width: 100%;
 overflow: hidden;
 padding: 2px;
 }
-.span_col{ 
+.span_col{
 width: 100%;
 height: 100%;
 float: left;

@@ -4,7 +4,7 @@ title: The Subject
 year: 2019
 description: The world's smallest escape room, with a story inspired by MKUltra and the evils of wartime human experimentation.
 img: /img/ts2.jpg
-category: other
+category: physical
 ---
 <img class="project_img" style="padding-bottom: 40px;" src="{{ site.baseurl }}/img/ts2.png" alt="" title="Playing The Subject"/>
 <div class="project_info" style="padding-left: 20px;width:400px;">

@@ -4,7 +4,7 @@ title: DataMine
 year: ???
 description: Using meaningless choices to highlight the insidious nature of dark money advertising on social media.
 img: /img/dm.PNG
-category: game
+category: big game
 ---
 
 <img class="project_img" style="padding-bottom: 40px;" src="{{ site.baseurl }}/img/dm1.gif" alt="" title="DataMine GIF"/>
