@@ -280,7 +280,7 @@ vertical-align: middle;
 box-sizing: border-box;
 padding: 10px;
     @media only screen and (max-width: 1200px) {
-    width: 40%;
+    width: 50%;
     }
     @media only screen and (max-width: 800px) {
     width: 300px;
@@ -337,12 +337,18 @@ padding-bottom: 30px;
 .blankbox{
 background: $theme-color;
 }
-.img_row{
-height: $img_height;
-width: 100%;
-overflow: hidden;
-box-sizing:border-box;
-padding: $img_spacing;
+.row {
+  -webkit-display: flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  @media only screen and (max-width: 1200px) {
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
 }
 .col{
 width: 100%;
@@ -366,9 +372,26 @@ width: 100%;
 }
 .half {
 width: 50%;
-height: 95%;
+height: 100%;
+padding-top: 1%;
 overflow: hidden;
+   h3 {
+     font-size: 36px;
+     color: $larkwright_pink
+   }
+   @media only screen and (max-width: 1200px) {
+   width: 100%;
+   h3 {
+     margin-top: 10px;
+   }
+  }
 }
+
+.full {
+ width: 100%;
+ margin: auto;
+}
+
 .caption{
 height: 100%;
 color: $caption_color;
@@ -387,7 +410,7 @@ padding-bottom: 20px;
 //padding-top: 20px;
 position: relative;
     @media only screen and (max-width: 1200px) {
-    width: 40%;
+    width: 50%;
     }
     @media only screen and (max-width: 800px) {
     width: 100%;
@@ -429,6 +452,13 @@ height: 320px;
             }
     }
 }
+.img_row{
+height: 100%;
+width: 100%;
+overflow: hidden;
+box-sizing:border-box;
+padding: $img_spacing;
+}
 // project_img class takes images of 1200x800.
 .project_img{
 width: 45%;
@@ -438,6 +468,33 @@ object-fit: cover;
 box-sizing: border-box;
 padding: $img_spacing;
 }
+// img-half takes images of any size.
+.img-half {
+  width: 100%;
+  padding: 4%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.project-video {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  display: block;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding-top: 20px;
+}
+
+
 /**
  * Blog  **********************************************************
  */
