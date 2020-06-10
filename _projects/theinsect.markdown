@@ -22,13 +22,15 @@ engine: Bitsy
 	<i>"Return life to what has now passed."<br/></i>
 	<br/>
 	<b>The Insect</b> is a short game about climate change, habitat renewal, and crawling on cadavers. 
-    The piece blends interactive fiction with exploration game mecahnics. 
-    Set in the near-future, players take control of a small insect tasked with restoring an environment wrought uninhabitable by a terrible man-made destruction. 
-    The piece focuses on the themes of habitat renewal, sustainability, and biodiversity, and poses the question: what comes after mankind?
+    <br/><br/>The piece blends interactive fiction with exploration game mecahnics. 
+    <br/><br/>Set in the near-future, players take control of a small insect tasked with restoring an environment wrought uninhabitable by a terrible man-made destruction. 
+    <br/><br/>
+    The game focuses on the themes of habitat renewal, sustainability, and biodiversity, and poses the question: what comes after mankind?
 	<br/><br/>
 	The Insect was including in the Bitsy Garden installation at <a href="https://www.playtopia.co.za/" target="_blank">Playtopia festival</a>.
 	<br/><br/>
     The Insect placed 2nd in the <a href="http://www.greenstories.org.uk/previous-competitions/interactive-fiction/">Green Stories Interactive Fiction competition</a>, organised by The University of Southampton.
+    <br/><br/>
 	<a href="https://larkwrighter.itch.io/the-insect" target="_blank">The Insect is currently playable on itch.io</a>.
 	<br/><br/>
 	<hr style="margin-bottom: 8px">
