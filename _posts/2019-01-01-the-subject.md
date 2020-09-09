@@ -27,17 +27,23 @@ Previous press coverage includes <a href="https://metro.co.uk/2019/09/26/worlds-
 
 ---
 
-## Design process 
+## Design insight - the concept
 
-The Subject started out as a two line concept:
+An escape room no bigger than a two-metre-squared crate sounds like a pretty improbably idea.
 
-<b>You've been locked in a box. You're not sure why, but you are sure that you need to find a way out.
 
-You've been tasked with aiding the escape of someone trapped in a box. But they're not what they seem...</b>
+
+I’ve always wanted to design an escape room. Unfortunately, I don’t have the means to take over a warehouse for a week and deck it out in themed paraphernalia.
+
+With The Subject, I wanted to take the escape room concept and shrink it as small as possible, whilst still retaining the central pillars of escape game design.
+
+
+
+However
 
 I was interested in experimenting with stress as a mechanic; how does debilitating physical anguish affect a player's ability to solve complex puzzles? 
 
-An extension of this, I felt that the concept of the 'escape room'
+An extension of this, I felt that the concept of the 'escape room' by definition should be more stressful than many existing escape rooms. In reality, being locked in a room with no conceivable means of escape is an uncomfortable experience.
 
 At the start of any major project I like outline the design values that I want the project to encompass. For The Subject, I settled on three:
 
@@ -53,5 +59,9 @@ The big mistake I made with this project was failing to playtest any of the puzz
 
 I'd become transfixed with the idea of the box
 
-As a result, the first playtests took place 
+
+
+As a result, the first playtests took place at the game's first public showing, at 
+
+at Newspeak House in July 2019
 
