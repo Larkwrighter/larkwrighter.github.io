@@ -1,0 +1,146 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: $gray;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  input, textarea {
+    border: 1px solid #f9f9f9;
+    outline: none;
+    &:focus:required:invalid {
+      border-color: #e02f40;
+    }
+    &:required:valid {
+      border-color: #34a74e;
+    }
+    }
+}
+
+::placeholder {
+	color: #666;
+}
+
+*::selection {
+  color: #fff;
+  background-color: $primary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 45px 0 30px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: initial;
+  letter-spacing: -1px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+blockquote {
+  padding-left: 30px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  border-left: 1px solid $secondary-color;
+}
+
+pre {
+  overflow: auto;
+  padding: 15px;
+  margin-bottom: 0;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  &+em {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    color: $gray-dark;
+  }
+}
+
+a {
+    text-decoration: none;
+    color: $pink;
+    transition: color 200ms;
+    &:hover {
+        color: $dark;
+    }
+}
+
+hr {
+border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.actions {
+    margin-top: 20px
+}
+
+.actions a {
+    color: #de235d;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 6px 8px;
+    border: 2px solid #de235d;
+    border-radius: 4px
+}
+
+.actions a:hover {
+    color: #fff;
+    background-color: #de235d;
+}
+
+.actions a:active {
+    color: #fff;
+    background-color: #ad1d4a;
+    border: 2px solid #ad1d4a
+}

@@ -1,31 +1,66 @@
-# Site settings
-title: George Larkwright
-email: george.larkwright@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  George Larkwright is a writer and game designer from London, UK.
-baseurl:  # https://larkwrighter.github.io/
-url:  # the base hostname & protocol for your site
-twitter_username: Larkwrighter
-github_username:  github_username
+title: George Larkwright – Game Designer & Writer
+logo:  # you can add own logo.
+description: game designer & writer with an enthusiasm for crafting unique and meaningful playable experiences, and this is my portfolio.
+baseurl: # https://larkwrighter.github.io/
+url: "" # https://larkwrighter.github.io/
+
+
+# Author Settings
+author:
+  name: George Larkwright
+  image: '/assets/img/prof_pic.png'
+  job: Game Designer & Writer
+  bio: I’m George Larkwright, and I’m a game designer and writer with an enthusiasm for crafting unique and meaningful playable experiences.
+  email: forexample@website.com
+
+
+# Contact links
+contact:
+  - name: Twitter
+    link: https://twitter.com/
+  - name: Facebook
+    link: https://facebook.com/
+  - name: Instagram
+    link: https://instagram.com/
+
+
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+
+
+# Google Analytics
+google-analytics: # add your identifier. For example UA-99631805-1.
+
 
 # Build settings
 markdown: kramdown
+permalink: none
+plugins:
+  - jekyll-sitemap
+  - jekyll/tagging
 
-highlighter: rouge
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:title:output_ext
 
-# Pagination
-plugins: [jekyll-paginate]
-paginate: 10
-paginate_path: "/blog/page:num/"
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag-page
+tag_permalink_style:  none
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-  poetry:
-    output: true
-    permalink: /poetry/:path/
-  blog:
-    output: true
-    permalink: /blog/:path/
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,24 +1,44 @@
-<header class="site-header">
+<div class="container-full">
+  <!-- begin header -->
+  <header class="header">
 
-  <div class="navbarwrapper">
+    <div class="logo">
+      <a class="logo__link" href="{{ site.baseurl }}/">
+      {%if site.logo %}
+        <img class="logo__image" src="{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }}">
+      {% else %}
+        George Larkwright - Game Designer
+      {% endif %}
+      </a>
+    </div>
 
-    <nav class="site-nav">
+    <nav class="main-nav">
+<!--
+      <span class="main-nav__open">menu</span>
 
-      <div class="trigger">
-        <!-- {{ site.title }} instead of blog -->
+      <div class="main-nav__box">
+        <span class="main-nav__close">Close</span>
 
-        <a class="page-link" href="{{ site.baseurl }}/">about</a>
-        <a class="page-link" href="/projects/">projects</a>
-        <a class="page-link" href="/blog/">blog</a>
-        <!--{% for page in site.pages %}
+        <ul class="nav__list list-reset">
+          <li class="nav__item">
+            <a href="{{site.baseurl}}/" class="nav__link">Home</a>
+          </li>
+          {% for page in site.pages %}
+            {% unless page.name == 'tags.html' or page.name == '404.html' %}
           {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <li class="nav__item">
+            <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
+          </li>
           {% endif %}
-        {% endfor %}-->
+            {% endunless %}
+          {% endfor %}
+        </ul>
 
       </div>
+-->
+
     </nav>
 
-  </div>
-
-</header>
+  </header>
+  <!-- end header -->
+</div>

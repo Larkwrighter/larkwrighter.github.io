@@ -1,0 +1,19 @@
+$desktop: 992px;
+$tablet:  768px;
+$mobile:  576px;
+
+.container {
+  max-width: 1270px;
+      padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-full {
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: $pink;
+}
+
+.container, .container-full {
+  margin: 0 auto;
+}

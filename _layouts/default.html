@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="/js/infinite-jekyll.js"></script>
+{% include head.html %}
 
-  {% include head.html %}
+<body>
 
-  <body>
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
 
-    {% include header.html %}
+  {% include header.html %}
 
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
+    {{ content }}
+  </main>
+  <!-- end content -->
 
-    <div class="page-content">
-        {{ content }}
-    </div>
+  {% include footer.html %}
 
-    {% include footer.html %}
-
-  </body>
+  <!-- begin js -->
+  <script src="{{ site.baseurl }}/assets/js/vendors/jquery-3.3.1.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendors/aos.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendors/jquery.fitvids.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/common.js"></script>
+  <!-- end js -->
+</body>
 
 </html>
