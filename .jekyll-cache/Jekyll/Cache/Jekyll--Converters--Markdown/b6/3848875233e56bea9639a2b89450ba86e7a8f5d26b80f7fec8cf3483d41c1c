@@ -1,0 +1,60 @@
+I"�<div class="project-video">
+    <iframe class="responsive-iframe" src="https://player.vimeo.com/video/328389901" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+</div>
+
+<hr />
+
+<p><b>To Bee or Not To Bee</b> is a playable experience which melds WarioWare-style minigames with a physical game-space and control inputs, as well as a real actor, straddling the line between game and interactive theatre piece. You are a parent and homemaker who needs keep on top of your chores; filling in a tax return form, vacuuming, and running a bath. This would be difficult enough, if your child wasn’t also demanding attention for the entire 60-second playthrough.</p>
+
+<p>The game was created in six weeks by a <b>team of five</b>. The game was developed in <b>Unity</b> for the <b>Oculus</b>. I was responsible for <b>game and narrative design</b>.</p>
+
+<hr />
+
+<h2 id="design-breakdown---flight-mechanic">Design breakdown - flight mechanic</h2>
+
+<p>Flight was the game’s central mechanic, and we explored several different implementation options during the course of developement. The overarching goal was to find an intuitive input method that felt simple, easy to understand, and accessible to as many people as possible.</p>
+
+<p><img class="img-right" style="padding-bottom: 0px;" src="/assets/img/flight-mechanic.png" title="Flight mechanic schematic" /></p>
+
+<p>We wanted players to embody the movement of bees. Bees flap their wings over 200 times a second; an unreasonable expectation for humans, but a good starting point for the design.</p>
+
+<p>The initial design saw players flap their hands briefly to begin or end flight, then tilt left and right to glide through the air. During playtesting however we learnt that players found holding their arms up for a long period of time tiring.</p>
+
+<p>The next iteration saw players steer by turning their head and hands in the direction they wanted to go. This allowed movement on the vertical as well as horizontal plane, but was ultimately too complicated. In playtesting we saw the players tended to look down often, causing them to crash into the ground.</p>
+
+<p>Removing vertical movement from the experience allowed for far simpler controls without affecting the player’s enjoyment. It did mean that the player suddenly had very little to do; they flapped at the start of the game, then glided around without being having to move their hands until they wanted to stop flying.</p>
+
+<p><img class="img-left" style="padding-bottom: 0px;" src="/assets/img/bee-dev-1.png" title="Development in progress" /></p>
+
+<p>The final iteration of the mechanic asked players to flap their hands to trigger a small push forward, rather than continuous propulsion. This gave players greater control of the bee (they could control the speed of travel, as well as stop and turn on the spot if they were struggling) and was also closer to our initial goal of a mechanic that embodied the motions of a flying bee.</p>
+
+<p>We were careful to balance the flapping requirement so that players didn’t become too tired whilst playing, but that there was enough physical exertion for them to feel like they were in control over their avatar.</p>
+
+<h2 id="design-breakdown---narrative">Design breakdown - narrative</h2>
+
+<p>One of the central aims of this project was to teach players more about the importance of bees within the natural world.</p>
+
+<p>The narrative I pitched kept this objective in mind, weaving together story, in-game prompts and educational information. The player-character wakes up one day feeling very small, and very strange - they’ve been transformed into a bee. In order to change back into a human, the player must pollinate all the flowers in the game world (a goal we had already decided on when designing the game, but now given narrative significance).</p>
+
+<p>I started by pulling together as much research on bees as possible, and then choosing some key education points that would a) be most interesting to the player, and b) lend themselves to engaging and humorous dialogue. This research slide acted as stimuli for the writing of the script.</p>
+
+<p><img class="img-full" style="padding-bottom: 0px;" src="/assets/img/bee-narrative-research.png" alt="" title="Narrative research" /></p>
+
+<p>In order to keep development simple, as a team we decided not to have NPCs within the game. Instead we used voiceover dialogue between the player-character and a bee who accompanies him on his journey.</p>
+
+<p>The player-character, Nigel, is an old curmudgeon who is sceptical of bees. For him to be trapped in the body of a bee, with a bee as a companion, is a nightmare. His companion’s enthusiasm combines with Nigel’s reticence to great comedic effect.</p>
+
+<p>The script comprised of three sections: an opening exchange, multiple bark lines, and a closing exchange.</p>
+
+<ul>
+  <li>The opening introduces the set-up; the player has been turned into a bee, and must pollinate flowers in order to return to human form.</li>
+  <li>Every time the player successfully pollinated a flower, they receive a bee fact delivered as a bark line, occassionally as a dialogue.</li>
+  <li>Once the player has pollinated all the flowers the closing scene concludes the story, with the player-character freed, now much more appreciative of bees.</li>
+</ul>
+
+<p>The nature of the script - each of the bark lines worked individually - meant that when we balanced the game by decreasing the number of flowers the player was required to pollinate, we didn’t lose any narrative coherence by cutting lines of dialogue.</p>
+
+<p>The script was finalised when the game was nearing the end stages of development. In future I would develop the narrative alongside the game. It would have been nice to have more story-driven mechanics in the game; in the end almost every line of dialogue was triggered in the same way and it was hard to avoid the sense that the story was tacked on at the last minute.</p>
+
+<p><img class="img-full" style="padding-bottom: 0px;" src="/assets/img/bee-narrative-script.png" alt="" title="Script cut-out" /></p>
+:ET
