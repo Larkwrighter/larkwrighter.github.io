@@ -2,6 +2,10 @@
 .article {
   display: flex;
   margin-bottom: 50px;
+  @media (max-width: 920px) {
+    flex-direction: column;
+      align-items: center;
+  }
 }
 
 .article__header {
@@ -16,8 +20,10 @@
 .article__image-box {
   display: table;
   margin-right: 30px;
-  @media (max-width: $mobile) {
-    display: none;
+  @media (max-width: 920px) {
+    display: block;
+      margin-bottom: 20px;
+      justify-content: center;
   }
 }
 
@@ -30,6 +36,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: $gray-white;
+      @media (max-width: $mobile) {
+
+  max-width: 80vw;
+  }
+
 }
 
 .article__title {

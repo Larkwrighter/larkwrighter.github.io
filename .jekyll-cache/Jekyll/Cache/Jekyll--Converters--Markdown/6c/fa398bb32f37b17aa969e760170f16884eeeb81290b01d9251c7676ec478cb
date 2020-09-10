@@ -1,0 +1,177 @@
+I"%2<p><img src="/assets/img/chapter-1-title.png" title="Chapter 1 gameplay" class="post-image" /></p>
+
+<hr />
+<p><b>Chapter 1</b> is an educational dungeon crawler that is both fun to play as well as delivering an impactful learning experience. It is designed to tackle ‘blank page anxiety’ and other barriers preventing young people from engaging with creative writing in the classroom.</p>
+
+<p>Players design and take control of a protagonist, exploring different worlds, encountering enemies, puzzles and other obstacles. Rather than using combat, items or other RPG staples to pass obstacles, players must write out their own solutions using nothing more than a keyboard and their imagination.</p>
+
+<p>The game uses natural language processing to generate new writing prompts based on what the player has already written. Everything the player writes is saved into one document, so that as players progress through each dungeon they build up a story. This can be read and downloaded at the end of the game.</p>
+
+<p><b>Chapter 1</b> is being developed using <b>HTML5 and Javascript with Pixi.JS</b>. I’m responsible for <b>design, code and art</b>.</p>
+
+<p><b><a href="https://larkwrighter.itch.io/chapter-1">↪ Play the prototype</a></b></p>
+
+<hr />
+
+<h2 id="project-insight---gameplay-design">Project insight - gameplay design</h2>
+
+<h4>Player objectives</h4>
+
+<p>The objectives in Chapter 1 are balanced to encourage the player to complete the <b>learning goal</b>, which is to write a story.</p>
+
+<p>The act of writing the story can be an intrinsic motivator for players, providing the player enjoys writing. However, in many school-age children this is unfortunately not the case.</p>
+
+<p>As a result we use the more overt game objective: ‘reach one of the exits by passing any obstacles that block your path’. This objective is more inherently ‘gamified’, thus engaging the player in the overarching game, but it also enables the learning objective; players must write their story in order to reach the exit, as each obstacle can only be passed by completing a writing challenge (see writing mode feature spec below).</p>
+
+<h4>Game flow</h4>
+
+<p><img class="img-right" style="padding-bottom: 0px;" src="/assets/img/chapter-1-flow.png" alt="" title="Chapter 1 game flow diagram" /></p>
+
+<ol>
+  <li>
+    <p>Character creation: players must fill out character details and customise the look of their hero.</p>
+  </li>
+  <li>
+    <p>Destination choice: players can choose which destination they want to go to.</p>
+  </li>
+  <li>
+    <p>Exploration begins! Tutorial onboarding. The player’s companion introduces them to walking around the overworld, and interacting with objects.</p>
+  </li>
+  <li>
+    <p>Explore: players use the mouse to move around the overworld, and can interact with objects with space.</p>
+  </li>
+  <li>
+    <p>Interact with object: When a player interacts with an object, they move to Writing Mode.</p>
+  </li>
+  <li>
+    <p>Prompt appears: The player must complete a writing prompt to ‘defeat’ an obstacle.</p>
+  </li>
+  <li>
+    <p>The game checks to see if the response to the prompt is adequate to pass the obstacle. If not, a subsequent prompt appears. The player continues to respond to prompts, building up a paragraph response that will fit into their story.</p>
+  </li>
+  <li>
+    <p>Once the obstacle is completed, players return to the Dungeon Mode overworld, where they can continue exploring and looping through other obstacles.</p>
+  </li>
+  <li>
+    <p>If all the obstacles have been interacted with, then the players complete a Final Challenge (in Writing Mode). This ends the story.</p>
+  </li>
+  <li>
+    <p>End Screen: the player is faced with the end screen, on which they can read their completed story (compiled from their writing prompts) and choose to print it before returning to the start screen.</p>
+  </li>
+</ol>
+
+<h2 id="case-study---workshop-driven-design">Case study - workshop-driven design</h2>
+
+<p>Before starting work on this project I did a great deal of research into creativity and how we can encourage it through games and play. This learning fed into my design philosophy for the project, which was to <b>use modern educational theory and classroom-based workshops to inform the design and development of the game</b>.</p>
+
+<p>Rather than conducting research workshops and then beginning design, I wanted to weave my design work into this research, using my findings in each workshop to develop and test mechanics in the next.</p>
+
+<h4>From design workshops...</h4>
+
+<p><img class="img-right" style="padding-bottom: 0px;" src="/assets/img/chapter-1-test.png" alt="" title="Workshop activities" /></p>
+
+<p>I ran four design workshops with small groups of primary school children aged 8-11. These workshops were an opportunity for me to evaluate different methods of teaching creative writing and how students responded to these methods, as well as to formulate and playtest different creativity-focused game mechanics.</p>
+
+<p>Before each workshop I asked participants to fill out a questionnaire which gauged a) their enthusiasm for creative writing, and b) their current writing ability.</p>
+
+<p>Participants then took part in several different writing activities. They were encouraged to be vocal about what they enjoyed and didn’t enjoy in each activity as they took part.</p>
+
+<p><b>Workshop activities included:</b></p>
+
+<ul>
+  <li>Prompt-driven writing, using Key Stage 2 standardised writing tests.</li>
+  <li>Prompt-driven writing, using images as inspiration.</li>
+  <li>Free-writing, in which students were given a blank piece of paper and told to write a story.</li>
+  <li>Character creation, in which students filled in a template character bio before writing about their own character.</li>
+  <li>Character creation through a collaborative drawing game, before students wrote about any of the characters.</li>
+  <li>Randomised prompts, using dice with images. Students rolled the dice, then used the image to inform their story.</li>
+  <li>Board game exploration, in which students progressed around a board and picked up different prompt cards (setting, character, obstacle, or treasure) to add to their story.</li>
+</ul>
+
+<p>Activities received rapid iterations between workshops: for example, I tweaked the rules of the dice rolling activity to reduce the number of times players rolled the dice and rebalance the focus to the writing aspect of the activity.</p>
+
+<p>I was also able to combine aspects of multiple activities: I introduced character creation as a part of the board game activity.</p>
+
+<h4>...To playable prototype</h4>
+
+<p>By the end of the last workshop I had a clear idea of what activities were more successful at both engaging children and helping them improve their creative writing.</p>
+
+<p><b>These findings were used to develop the key features of a digital prototype:</b></p>
+
+<ul>
+  <li>
+    <p>When I first started work on this project, I assumed that increased freedom would lead to increased creativity. However, students struggled when starting a story without a prompt. The activities which included a writing prompt always led to a) quicker engagement with the task and b) a stronger end product. The game’s <b>writing mode</b> would need a structure to help students get started.</p>
+  </li>
+  <li>
+    <p>However, students were less likely to write a coherent story when they had two many prompts to work with, if the prompts were ill-defined (e.g. images), or unrelated to what they’d already written. <b>The writing prompts in the game would need to be relevant and clear.</b></p>
+  </li>
+  <li>
+    <p>I offered no teaching support to students during the activities. However, in the classroom a teacher would be able to provide tailored feedback and additional support as they wrote. I therefore opted to use <b>natural language processing</b> to generate prompts that adapt to what the player has already written.</p>
+  </li>
+</ul>
+
+<p><img class="img-right" style="padding-bottom: 0px;" src="/assets/img/chapter-1-gameplay.png" alt="" title="Chapter 1 gameplay" /></p>
+
+<ul>
+  <li>
+    <p>My original vision for the game was a linear dungeon that players explored, completing writing prompts at intervals in order to progress. However, students did not respond well to the linear board game prototype we played in the workshops, becoming bored quickly. The balance between freedom and structure was crucial to the success of the game: too much freedom and players would struggle with the writing; too little and they would become bored. The linear dungeon became <b>a semi-open world with branching paths for players to explore.</b></p>
+  </li>
+  <li>
+    <p>Students would often get distracted by the game mechanic, such as rolling dice, often to the detriment of their writing. This solidified the need to <b>focus the play experience on the writing mode</b>. Any overworld exploration would have to serve this writing experience. I stripped back additional RPG features, such as health bars, enemies and collectibles. All obstacles would now have to be completed by writing.</p>
+  </li>
+  <li>
+    <p>Letting players design the characters they then wrote about, either through collaborative drawing or a template character sheet, made students far more engaged in their writing - this lead to the introduction of the <b>character customisation</b> section of the game.</p>
+  </li>
+  <li>
+    <p>At the end of the session, regardless of which activities they’d taken part in, students were excited to share what they’d written with their friends or family; they took pride in their work. This is absolutely the kind of feeling I want to evoke with the game. <b>Everything that the player writes in Chapter 1 will be collated into a complete story that they can then read and download at the end of the play session.</b></p>
+  </li>
+</ul>
+
+<h2 id="feature-spec---writing-mode">Feature spec - writing mode</h2>
+
+<p>The Writing Mode is the core of the game; players should expect to spend 70% of their playtime completing writing tasks in this mode.</p>
+
+<h4>Main aims:</h4>
+
+<p><img class="img-right" style="padding-bottom: 0px;" src="/assets/img/chapter-1-writing.png" alt="" title="Chapter 1 writing feature UI and prototype" /></p>
+
+<ul>
+  <li>Facilitate creative writing by providing a supportive structure for players.</li>
+  <li>Break up writing tasks into manageable chunks.</li>
+  <li>Connect writing tasks to exploration of the game world.</li>
+</ul>
+
+<h4>Basic elements:</h4>
+
+<ul>
+  <li>
+    <p><b>Prompts:</b> Each object will have an initial prompt attached to it, which the player must answer. New prompts are then generated, which relate to what the player has already written.</p>
+  </li>
+  <li>
+    <p><b>Writing Window:</b> This is the space in which the player’s writing appears as they type. It will function like an ordinary text box, but be style to fit the game’s aesthetic rather than a boring Word Doc. Players will be able to submit what they’ve written with a button click.</p>
+  </li>
+  <li>
+    <p><b>Support Prompts:</b> After answering the initial prompts the player may receive addition ideas e.g. ‘Try using a new adjective’ to support their writing.</p>
+  </li>
+  <li>
+    <p><b>Imagery:</b> The Writing Mode will also feature a section for showing an image of the object being interacted with, or the player avatar where appropriate.</p>
+  </li>
+  <li>
+    <p><b>Natural Language Processing Integration:</b> The writing mode will use natural language processing and parts-of-speech tagging to parse what the player writes and generate new prompts based on what has already been written. This creates the idea of a ‘teacher within the game’, providing help and support as the player goes.</p>
+  </li>
+</ul>
+
+<h4>Final design:</h4>
+
+<p><b></b></p>
+
+<ul>
+  <li>Upon interacting with an object in the overworld, the mode will switch from ‘Exploration’ to ‘Writing’.</li>
+  <li>Players will recieve a writing prompt unique to the object, which they must respond to. For example, the object is a ravine, and the player might be asked to ‘write about how you make it across the ravine’.</li>
+  <li>Players write their answer to the prompt in a free text box.</li>
+  <li>On completing a prompt, an additional prompt appears which is based on what the player wrote initially. For example, if they wrote about using a kite to glide across the ravine, the follow-up prompt might say ‘describe the kite’.</li>
+  <li>After completing a nominal number of prompts, the object will be classed as ‘completed’ and players will be able to return to the overworld mode to continue their exploration.</li>
+  <li>The completed passage of writing will be added to their story, to be download or printed at the end of the game.</li>
+</ul>
+
+:ET

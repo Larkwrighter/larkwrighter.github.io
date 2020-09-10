@@ -1,0 +1,73 @@
+I"4	<hr />
+
+<p><b>Boxes</b> is a sliding</p>
+
+<p>spatial awareness,</p>
+
+<p>The game focuses on promoting a relaxing game feel</p>
+
+<p><b>Boxes</b> was developed independently over the course of a week as part of ‘The Neighbourhood’ game jam.</p>
+
+<p><b><a href="https://larkwrighter.itch.io/book-of-cruelty">↪ Play Boxes</a></b></p>
+
+<hr />
+
+<h2 id="design-breakdown---puzzles">Design breakdown - puzzles</h2>
+
+<p>Boxes may have been made as part of a game jam, but it was borne out of research into</p>
+
+<p>an attempt to replicate some of the features that make mobile puzzle games so successful.</p>
+
+<p>Take the popular mobile game Two Dots as an example. The premise is simple - connect two or more dots to remove them from the grid. The central mechanic</p>
+
+<p>I’ve completed over 1000 levels on Two Dots, but I keep coming back because of two things:</p>
+
+<p>*</p>
+
+<p>new mechanics are introduced at regular intervals to freshen up gameplay.</p>
+
+<ul>
+  <li>Scalable - easy to extend the playtime</li>
+</ul>
+
+<p>create a relaxing puzzle game</p>
+
+<p>These games often lack any narrative, or the narrative is superficial.</p>
+
+<p>Game feel is high on the lsit of things balanced for</p>
+
+<p>Each level is a dopamine hit</p>
+
+<p>The visuals are often brightly coloured, and change as the player progresses</p>
+
+<p>give that sense of progression</p>
+
+<p>Simple mechanic:</p>
+
+<ul>
+  <li>All boxes of the same colour move at the same time.</li>
+</ul>
+
+<p>This was supported by two additional mechanics:</p>
+
+<ul>
+  <li>Boxes always move towards the wall of the same colour.</li>
+</ul>
+
+<p>##</p>
+
+<p>The game is built to scale into a mobile game with a F2P business model:</p>
+
+<ul>
+  <li>Players only get three rewinds per level, but there are options to receive more, for example by purchasing an hour of free rewinds.</li>
+  <li>Everytime the player fails a level they could lose a life, with lives regenerating at time intervals, up to a maximum of five. Alternatively players</li>
+  <li>Additional power-ups could be introduced to the game to make clearing levels</li>
+</ul>
+
+<p>The one aspect</p>
+
+<p>is an overarching progression system, and clear rewards for completing levels.</p>
+
+<p>I would also like to build replayability into levels, such as a rating depending on the number of moves that a player takes to complete each level.</p>
+
+:ET

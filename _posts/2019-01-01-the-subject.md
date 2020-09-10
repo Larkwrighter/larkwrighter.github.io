@@ -2,7 +2,7 @@
 layout: post
 title:  The Subject
 subtitle: Taking classic escape room gameplay, compressing it down to an uncomfortably small scale and mixing in a mind-bending narrative, The Subject is a truly unique experience for two or more players.
-description: The game is designed for multiple players; one player enters a small, cramped box, and is locked inside. The other player(s) must solve a series of puzzles to free their teammate. The twist? The information they need to solve the puzzles is on the inside of the box.
+description: One player enters a small, cramped box, and is locked inside. The other player(s) must solve a series of puzzles to free their teammate. The twist? The information they need to solve the puzzles is on the inside of the box.
 date:   2018-01-01
 image: '/assets/img/thumbnails/subject-thumbnail.png'
 category: game
@@ -27,7 +27,7 @@ Previous press coverage includes <a href="https://metro.co.uk/2019/09/26/worlds-
 
 ---
 
-## Design insight - the concept
+## Project insight - the concept
 
 <img class="img-right" style="padding-bottom: 0px;" src="/assets/img/the-subject-1.png" alt="" title="The Subject photos">
 
@@ -55,15 +55,17 @@ With ideas for puzzles already bouncing round my brain I locked in the concept I
 
 At the start of any major project I also like to outline the design values that I want the project to encompass. For The Subject, I settled on three:
 
-* <b>Claustrophobia</b> – I want Player One to feel trapped, uncomfortable, and scared. I want that desperation to impact upon their ability to parse information and solve puzzles.
+* <b>Claustrophobia</b> – Player One should feel trapped, uncomfortable, almost scared. These feelings should impact upon their ability to parse information and solve puzzles.
 * <b>Cooperation</b> – The only way that Player One can escape from the box is by cooperating with Player Two. The game leans on an asymmetrical information space between the two players, with communication requirements built into every puzzle.
-* <b>Emergent Storytelling</b> – Players will naturally learn more about the backstory of their characters by reading the materials required to solve the puzzles. The story is two-sided, so each player will learn things about the game world that are unique to their experience of the game.
+* <b>Emergent Storytelling</b> – Players will naturally learn more about the backstory of their characters by reading the materials required to solve the puzzles. The story is two-sided, so each player will learn things about the game world that are unique to their experience of the game. They may choose to share this information with their partner after the game is concluded.
+
+---
 
 ## Iteration: playtesting puzzles under pressure
 
 One of the chief mistakes I made when developing The Subject relates to playtesting. Rather than build a quick prototype out of cardboard and use this to test the game's puzzles, I became transfixed with the physical aspects of the box - planning it, building it, and then polishing the look and feel.
 
-The extra time it took to build the box meant that I did minimum testing before the game's first public showing, at a scratch event at Newspeak House.
+The extra time it took to build the final box meant that I did minimum testing before the game's first public showing, which was at a scratch event at Newspeak House.
 
 Puzzle design without testing is inadvisable. <b>There were a number of problems that would quickly have become apparent in earlier testing:</b>
 
@@ -74,7 +76,7 @@ Puzzle design without testing is inadvisable. <b>There were a number of problems
 
 I was fortunate that there weren't any technical flaws with the project, and the showcase ran fairly smoothly. I picked up a lot of useful feedback from players, and took a proactive approach to utilising this feedback during the showcase itself, rather than waiting to iterate at a later date.
 
-I'd had the foresight to build adaptability into the box, so I could make adjustments to the game between playthrough, taking advantage of having groups of players queuing up to play. I used blue tac to fit the clues and story material to the inside of the box, meaning I could add or remove clues. All the content in the box was also written in pencil rather than pen. Game materials outside the box were laminated, so I could use a white board marker to edit sections if needed.
+I'd had the foresight to build adaptability into the box, so I could make adjustments to the game between playthroughs, taking advantage of having groups of players queuing up to play. I used blue tac to fit the clues and story material to the inside of the box, meaning I could add or remove clues. All the content in the box was also written in pencil rather than pen. Game materials outside the box were laminated, so I could use a white board marker to edit sections if needed.
 
 One example of this kind of 'on-the-fly' iteration working well relates to the final puzzle of the game. To prevent players from brute-forcing the number lock once they had three of the four digits required, I introduced a number-shuffle riddle (that needed all four numbers before it could be solved) that would output the correct combination for the lock. This proved to be a puzzle too far for many players, so I simply removed it from the experience, instead trusting players not to brute-force the lock. Of the subsequent playtests, about 50% of players did force the lock, but this strategy ultimately became part of the game - it is a viable technique in code-breaking, and should be rewarded.
 

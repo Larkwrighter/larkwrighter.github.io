@@ -1,0 +1,77 @@
+I"5<p><img src="/assets/img/boxes-gif.gif" title="Boxes gameplay" class="post-image" /></p>
+
+<hr />
+
+<p><b>Boxes</b> is a sliding blocks puzzle game inspired by minimalist mobile games. The game is slower-paced, but more challenging, than its competitors in the genre.</p>
+
+<p>Players are required to think for slightly longer about their moves, particularly when new mechanics are added to what is otherwise a very straightforward premise - move the coloured boxes towards the wall of the same colour.</p>
+
+<p><b>Boxes</b> was developed independently over the course of a week as part of ‘The Neighbourhood’ game jam, using <b>Construct 3</b>.</p>
+
+<p><b><a href="https://larkwrighter.itch.io/book-of-cruelty">↪ Play Boxes</a></b></p>
+
+<hr />
+
+<h2 id="case-study---mobile-game-design">Case study - mobile game design</h2>
+
+<p><img class="img-right" style="padding-bottom: 0px;" src="/assets/img/two-dots.png" alt="" title="Two Dots screenshot" /></p>
+
+<p>Boxes may have been made as part of a game jam, but I’d been wanted to make such a game for some time. I have a deep-seated love and fascination for ‘casual’ mobile puzzle games - the kind that hook you in and keep you playing even after your commute is over.</p>
+
+<p>Take the popular mobile game <i>Two Dots</i> as an example. The premise is simple - connect two or more dots of the same colour to remove them from the grid. Connecting four or more dots into a square removes all of the dots of that colour from the grid.</p>
+
+<p>Each level has different goals - ‘remove 60 blue dots’ is a basic example. The traditional mobile game staples - such as lives, an overworld progression system, and three-star grading on completing a level - are all present.</p>
+
+<p>I’ve completed almost 1000 levels of <i>Two Dots</i>, but I keep coming playing because of three things:</p>
+
+<ul>
+  <li>
+    <p>New mechanics are introduced at regular intervals to freshen up gameplay. Anchors can only be removed by reaching the bottom of the grid. Nesting dots have to be ticked down by matching dots in adjacent spaces. Some dots are on fire, which spreads rapidly and is only destroyed when adjacent dots are removed.</p>
+  </li>
+  <li>
+    <p>The game <b>feels</b> good to play. Connected dots disperse with subtle fade, and new dots fill the now vacant spaces with a weighty thud. Creating a square causes all the dots of that colour to light up before the move is confirmed. The various power-ups and mechanics add further colour and flair.</p>
+  </li>
+  <li>
+    <p>The game’s progression system is fine-tuned to deliver consistent motivation to the player. Beating levels moves the player further along the overworld map. Completing 25 levels unlocks a new area, reflected by new background illustrations, which meld together into an attractive diorama. Completing each area also unlocks a charming postcard. Wish you were here.</p>
+  </li>
+</ul>
+
+<p><i>Two Dots</i> does have its flaws. Difficulty is often derived from the randomness with which new dots enter the grid, rather than complex level design. The ceiling for player ability is very low; you don’t necessarily ‘improve’ at Two Dots, you just keep playing Two Dots.</p>
+
+<p>Of course, this last point is a staple of mobile games that have mass-market appeal - they aren’t overly taxing. I set out to make a game that carried more of a cognitive challenge to players, whilst retaining the other factors that make simple puzzle games so successful:</p>
+
+<p><img class="img-right" style="padding-bottom: 0px;" src="/assets/img/boxes-tutorial.png" alt="" title="Boxes tutorial" /></p>
+
+<ul>
+  <li>
+    <p><b>Simple ruleset</b>. All boxes of the same colour move at the same time. Boxes always move towards the wall of the same colour. To complete a level, all boxes need to be touching the wall of their colour. Once a box touches the wall, it cannot be moved again.</p>
+  </li>
+  <li>
+    <p><b>Mechanical depth</b>. Although the basic premise is simple, additional mechanics add complexity to the puzzles. For example, in later levels there are boxes can be moved in two directions. New mechanics should be introduced at intervals, just as the player has begun to develop mastery over the existing gameplay, so as to keep players interested.</p>
+  </li>
+  <li>
+    <p><b>Bright, minimalist graphics</b>. Important from a design as well as an aesthetic perspective. Colours and shapes are often used as the moving pieces in mobile puzzle games as they’re a universally recognisable ‘vocabulary’; players don’t need to learn a new game-specific langugage in order to play. This streamlines the onboarding experience, particularly for casual players who don’t play many games. Bright colours are also naturally engaging, drawing players to the game.</p>
+  </li>
+  <li>
+    <p><b>Satisfying feedback</b>. Pay attention to game feel. Use graphical effects and sounds to let the player know they’re doing a good job. Should not be limited to completing the puzzle, but to all aspects of interacting with the game - moving pieces, touching walls, rewinding, etc. Heighten the sense of ‘delight’ in the player and they’ll keep playing for longer.</p>
+  </li>
+  <li>
+    <p><b>Scalable</b>. It’s easy to extend the playtime of the game, by adding in new levels with new mechanics, even after the game has been published.</p>
+  </li>
+</ul>
+
+<!--
+## Project insight - free-to-play
+
+The game was designed with the option to scale it into a mobile game with a F2P business model in mind:
+
+* Players only get three rewinds per level, but there are options to receive more, for example by purchasing an hour of free rewinds.
+* Everytime the player fails a level they could lose a life, with lives regenerating at time intervals, up to a maximum of five. To avoid waiting players could purchase extra lives.
+* Additional power-ups could be introduced to the game to make clearing levels easier - e.g. a simple 'next move' hint, or a bomb to remove one of the boxes.
+
+In order for the above additions to work, I would need to develop an overarching progression system, with clear rewards for completing levels. For F2P viability to work the player has to have a continued drive to play the game, whereas at the moment there are no extrinsic motivation factors.
+
+It would also be prudent to add replayability into levels, such as a rating depending on the number of moves that a player takes to complete each level.
+-->
+
+:ET

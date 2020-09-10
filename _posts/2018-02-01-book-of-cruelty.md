@@ -30,7 +30,7 @@ The initial concept for Book of Cruelty was born out of a fascination with the i
 <h4>Goal of narrative:</h4>
 
 * Influence player's expectations before their first playthrough, to evoke a sense of dread and paranoia.
-* Interconnecing text that fragments as the player progresses, reflecting the nerves/sanity of the reader.
+* Interconnecting text that fragments as the player progresses, reflecting the nerves/sanity of the reader.
 * Create a work that encourages textual exploration; something to be analysed rather than immediately understood.
 
 <h4>Implementation:</h4>
@@ -51,9 +51,9 @@ The reader is issued a warning: do they want to continue?
 
 * The further the reader moves from the centre, the more fragmented the text becomes. Unsettling artefacts also start appearing, such as colour changes, noises, images, etc.
 
-* Eventually the web breaks off into tendrils of 'broken sanity'. These are linear passages which the reader must follow, leading to one of the multiple endings
+* Eventually the web breaks off into tendrils of 'broken sanity'. These are linear passages which the reader must follow, leading to one of the multiple endings.
 
-* At the end the reader is left with a single message: "The book rewards repeat readings". Encouraging a second playthrough allows readers to see areas they may have missed, as well as giving a second opportunity to make sense of what they have seen. Because of the structure of the piece, the reader may encounter passages in different orders, and this can elucidate or cloud the true meaning of the story. The idea that the story could shift between different readings also fit the theme.
+* At the end the reader is left with a single message: "The book rewards repeat readings". Encouraging a second playthrough allows readers to see areas they may have missed, as well as giving a second opportunity to make sense of what they have seen. Because of the structure of the piece, the reader may encounter passages in different orders, and this can elucidate or cloud the true meaning of the story. The idea that the story could shift between different readings also fits the theme.
 
 * However, each repetition does undermine the initial goal of influencing player expectations, as the sense of dread diminishes after each playthrough.
 
