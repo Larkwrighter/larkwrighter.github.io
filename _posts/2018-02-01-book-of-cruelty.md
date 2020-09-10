@@ -7,7 +7,7 @@ date:   2000-01-01
 image: '/assets/img/thumbnails/book-of-cruelty-thumbnail.png'
 category: game
 feature: true
-CTA: Learn more about the piece's narrative structure, and play the game
+CTA: Play the game and learn more about the piece's narrative structure
 
 ---
 
