@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  Book of Cruelty
-subtitle: A horrifying historical document reimagined as interactive fiction. The piece tries to affect the player's expectations before they begin playing.
+subtitle: A horrifying historical document reimagined as interactive fiction.
 description: King Eric XIV ruled Sweden from 1560 to 1568. It was a reign characterised by madness, barbarism, and brutality. The King was deeply paranoid, obsessed with the idea that his subjects were plotting to overthrow him. An irrepressible and obsessive note-taker, the King kept a journal of his brutish reign. Years later, these notes became known as the Bok Av Grymhet, or Book of Cruelty.
 date:   2000-01-01
 image: '/assets/img/thumbnails/book-of-cruelty-thumbnail.png'
 category: game
+thumbnail: interactive fiction
 feature: true
 CTA: Play the game and learn more about the piece's narrative structure
 
@@ -19,7 +20,7 @@ King Eric XIV ruled Sweden from 1560 to 1568. It was a reign characterised by ma
 
 ...Of course, most of this is fiction. King Eric XIV of Sweden is real, but - as far as I'm aware - his Book of Cruelty is not. I wanted to create a short interactive piece that tries to affect the player's expectations before playing (using the preface above), resulting in enhancing the predilection towards certain emotions whilst playing (fear).
 
-<b><a href="https://larkwrighter.itch.io/book-of-cruelty">&#8618; Play Book of Cruelty</a></b>
+<div class="author__actions"><a href="https://larkwrighter.itch.io/book-of-cruelty" target="_blank">&#8618; Play Book of Cruelty</a></div>
 
 ---
 

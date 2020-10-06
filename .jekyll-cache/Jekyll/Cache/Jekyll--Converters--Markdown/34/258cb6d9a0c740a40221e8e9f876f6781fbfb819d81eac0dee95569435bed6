@@ -1,0 +1,192 @@
+I"ˆ<div class="container">
+    
+    <div class="grid-container">
+
+    
+
+        <div class="grid-item">
+            <a href="/game/postcards-home.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/postcards-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">Postcards Home</h2>
+                    <!--<p>short game, game jam</p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+        <div class="grid-item">
+            <a href="/game/chapter-1.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/chapter-1-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">Chapter 1</h2>
+                    <!--<p></p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+        <div class="grid-item">
+            <a href="/game/reclaiming-solitude.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/reclaiming-solitude-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">Reclaiming Solitude</h2>
+                    <!--<p></p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+        <div class="grid-item">
+            <a href="/game/adulting.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/adulting-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">Adulting?</h2>
+                    <!--<p>installation</p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+        <div class="grid-item">
+            <a href="/game/experiments-in-play.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/experimentsinplay-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">Experiments in Play</h2>
+                    <!--<p></p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+        <div class="grid-item">
+            <a href="/game/the-subject.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/subject-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">The Subject</h2>
+                    <!--<p>escape room</p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+        <div class="grid-item">
+            <a href="/game/nexus.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/nexus-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">Freelance Work - Nexus Studios</h2>
+                    <!--<p>mobile/AR</p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+        <div class="grid-item">
+            <a href="/game/the-insect.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/theinsect-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">The Insect</h2>
+                    <!--<p></p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+        <div class="grid-item">
+            <a href="/game/to-bee.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/bee-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">To Bee or Not To Bee</h2>
+                    <!--<p>VR</p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+        <div class="grid-item">
+            <a href="/game/boxes.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/boxes-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">Boxes</h2>
+                    <!--<p>mobile</p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+        <div class="grid-item">
+            <a href="/game/gloow.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/gloow-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">Gloow</h2>
+                    <!--<p></p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+        <div class="grid-item">
+            <a href="/game/sir-prisepartie.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/sir-prisepartie-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">The Ballad of Sir Prisepartie</h2>
+                    <!--<p></p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+        <div class="grid-item">
+            <a href="/game/book-of-cruelty.html">
+                <img class="thumbnail" alt="" src="/assets/img/thumbnails/book-of-cruelty-thumbnail.png" />
+                <div class="overlay">
+                  <div class="thumb-info">
+                    <h2 class="thumb-title">Book of Cruelty</h2>
+                    <!--<p>interactive fiction</p>-->
+                  </div>
+                </div>
+            </a>  
+        </div>
+
+    
+
+    </div>
+
+</div>
+:ET

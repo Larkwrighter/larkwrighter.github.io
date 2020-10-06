@@ -1,5 +1,6 @@
 /* Author */
 .author {
+    position: relative;
     margin: 40px 0;
     padding-bottom: 10px;
     max-width: 80%;
@@ -7,17 +8,20 @@
   @media (max-width: $mobile) {
     margin: 10px 0;
     padding-bottom: 10px;
+      max-width: 90vw;
   }
 }
 
 .author__img {
   display: block;
+    position: relative;
   max-width: 200px;
   max-height: 200px;
   margin: 0 auto 40px;
     margin-right: 2em;
     margin-top: 1.5em;
   border-radius: 50%;
+    margin-bottom: 5em;
   background-color: $gray-white;
   transition: opacity 100ms ease;
   float:left;
@@ -25,6 +29,7 @@
         float: none;
           margin-left: auto;
   margin-right: auto;
+        margin-bottom: 1em;
   }
 }
 
@@ -52,6 +57,7 @@
       display: block;
   max-width: 75%;
   margin: 0 auto 30px;
+    line-height: 27px;
 }
 
 a.say-hello {
@@ -79,4 +85,39 @@ a.know-more {
   &:hover {
     color: $primary-color;
   }
+}
+
+.author__actions {
+    margin-top: 20px;
+    text-align: center;
+    max-width: 75%;
+    margin: 0 auto 20px;
+    @media (max-width: $tablet) {
+        max-width: 75%;
+  }
+}
+
+.author__actions a {
+    color: #de235d;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 6px 8px;
+    border: 2px solid #de235d;
+    border-radius: 4px;
+}
+
+.author__actions a:hover {
+    color: #fff;
+    background-color: #de235d;
+}
+
+.author__actions a:active {
+    color: #fff;
+    background-color: #ad1d4a;
+    border: 2px solid #ad1d4a
 }

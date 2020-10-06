@@ -6,6 +6,7 @@ description: One player enters a small, cramped box, and is locked inside. The o
 date:   2018-01-01
 image: '/assets/img/thumbnails/subject-thumbnail.png'
 category: game
+thumbnail: escape room
 feature: true
 CTA: Find out more about the world's smallest escape room
 
@@ -23,7 +24,7 @@ In the ultimate test of communication, concentration and calmness under pressure
 
 <b>The Subject</b> was a <b>solo project</b>, designed with two aims: to redefine what escape room games can be, and take them to a new level of intensity.
 
-Previous press coverage includes <a href="https://metro.co.uk/2019/09/26/worlds-smallest-escape-room-shuts-coffin-induce-claustrophobia-dread-10811561/">Metro</a> and <a href="https://www.ladbible.com/news/news-worlds-smallest-escape-locks-you-in-a-coffin-20190926">LadBible</a>.
+Press coverage includes <a href="https://metro.co.uk/2019/09/26/worlds-smallest-escape-room-shuts-coffin-induce-claustrophobia-dread-10811561/">Metro</a> and <a href="https://www.ladbible.com/news/news-worlds-smallest-escape-locks-you-in-a-coffin-20190926">LadBible</a>.
 
 ---
 

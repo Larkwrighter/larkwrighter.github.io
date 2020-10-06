@@ -64,3 +64,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+# Collections
+collections:
+    - projects:
+    

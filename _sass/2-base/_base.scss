@@ -103,10 +103,6 @@ img {
 a {
     text-decoration: none;
     color: $pink;
-    transition: color 200ms;
-    &:hover {
-        color: $dark;
-    }
 }
 
 hr {
@@ -117,12 +113,12 @@ border: 0;
 }
 
 .actions {
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 .actions a {
     color: #de235d;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
     font-weight: 500;
     text-decoration: none;
@@ -131,7 +127,7 @@ border: 0;
     margin-bottom: 8px;
     padding: 6px 8px;
     border: 2px solid #de235d;
-    border-radius: 4px
+    border-radius: 4px;
 }
 
 .actions a:hover {
