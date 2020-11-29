@@ -16,9 +16,9 @@ CTA: Watch video documentation and learn about the game's iterations
 
 ---
 
-<b>The Insect</b> is a short game about climate change, habitat renewal, and crawling on cadavers. The piece blends interactive fiction with exploration game mecahnics.
+<b>The Insect</b> is a short game about climate change, habitat renewal, and crawling on cadavers. The piece blends interactive fiction with exploration game mechanics.
 
-Set in the near-future, players take control of a small insect tasked with restoring an environment wrought uninhabitable by a terrible man-made destruction. he game focuses on the themes of habitat renewal, sustainability, and biodiversity, and poses the question: what comes after mankind?
+Set in the near-future, players take control of a small insect tasked with restoring an environment wrought uninhabitable by a terrible man-made destruction. The game focuses on the themes of habitat renewal, sustainability, and biodiversity, and poses the question 'what comes after mankind?' The game seeks to highlight the symbiotic relationship between humanity and the natural world, whilst also offering a hopeful message about recovery from man-made climate emergencies.
 
 The Insect was including in the Bitsy Garden installation at <a href="https://www.playtopia.co.za/" target="_blank">Playtopia festival 2019</a>.
 

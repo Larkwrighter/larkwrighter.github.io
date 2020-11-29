@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Reclaiming Solitude
-subtitle: A piece about slowing down and taking some time for yourself.
+subtitle: Read a good book. Listen to the radio. Enjoy a moment of solitude.
 description:
 date: 2019-10-18
 image: '/assets/img/thumbnails/reclaiming-solitude-thumbnail.png'
@@ -20,7 +20,7 @@ CTA:
 
 <b>Reclaiming Solitude</b> is a short game about the benefits of slowing down and taking some time for yourself.
 
-Read a good book. Listen to the radio. Enjoy a moment of solitude.
+The game centres in on one room, with very limited space for the player to move, and time only moves when the player interacts with any of the objects in the room. It serves partly as a reminder of the benefits of relaxing indoors, and partly as a relaxing experience in its own right.
 
 Made in Bitsy for the 'Isolation' Bitsy game jam.
 

@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  Postcards Home
-subtitle: Boxes is a minimalist puzzle game about rearranging boxes. Seemingly simple yet tricky to master, organise your way through 30 increasingly complex levels.
-description: The game takes inspiration from simple yet successful mobile games, and attempts to replicate this with added challenge.
+subtitle: Fly across Europe in a paper aeroplane, stopping off in cities to send postcards home.
 date:   2020-01-01
 image: '/assets/img/thumbnails/postcards-thumbnail.png'
 category: game
