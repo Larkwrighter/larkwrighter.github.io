@@ -9,5 +9,5 @@ button:
   label: "Find out more"
   link: "/projects/little-garden"
 image : 
-  img: "img/projects/thumbnails/garden-thumbnail.png"
-  alt: ""
+  img: "img/thumbnails/garden-thumbnail.png"
+  alt: "Screen shot from Little Garden in the City, showing the protagonist standing in a community garden."

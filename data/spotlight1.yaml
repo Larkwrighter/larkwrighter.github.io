@@ -9,5 +9,5 @@ button:
   label: "Find out more"
   link: "https://www.learnwithcurious.com/"
 image : 
-  img: "img/projects/thumbnails/curious.png"
+  img: "img/thumbnails/curious.png"
   alt: "Screenshot from the Curious prototype, showing a teacher moving around a futuristic classroom."

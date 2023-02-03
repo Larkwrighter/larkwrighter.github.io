@@ -9,5 +9,5 @@ button:
   label: Find out more
   link: "/projects/chapter-1"
 image : 
-  img: "img/projects/thumbnails/chapter-1-thumbnail.png"
-  alt: "Headshot image of George Larkwright"
+  img: "img/thumbnails/chapter-1-thumbnail.png"
+  alt: "Screenshot from Chapter 1, showing pixel art of a man looking at a monkey in a tree"
