@@ -1,0 +1,15 @@
+<div class="gallery-item-container col-lg-3 col-sm-6 flex">
+    <div class="gallery-item">
+        <div class="gallery-image">
+            <a href="{{ .url }}" target="{{ .target }}">
+                <img src="{{ .thumb }}" alt="{{ .alt }}" />
+            </a>
+        </div>
+        <div class="gallery-caption">
+            <a href="{{ .url }}" target="{{ .target }}">
+                <h3><span>{{ .title | safeHTML }}</span></h3>
+            </a>
+            <p>{{ .content | safeHTML }}</p>
+        </div>
+    </div>
+</div>

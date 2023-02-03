@@ -1,0 +1,82 @@
+// Color Variables
+$primary-color: #de235d;
+$secondary-color: #ffd001;
+$dark: #333;
+$gray: #666;
+$gray-dark: #999;
+$gray-blue: #b3bbcb;
+$gray-white: #f8f8f8;
+$gray-lighten: #c7d0e2;
+$white: #fff;
+$pink: #de235d;
+$pink-dark: #de235d;
+
+// Bg colours
+$primary: #de235d;
+
+// Font Variables
+$header-font: 'Jost', Helvetica, Arial, sans-serif;
+// $body-font: 'Heebo', sans-serif;
+$body-font: 'Mulish', sans-serif;
+// $body-font: 'Open Sans', Helvetica, Arial, sans-serif;
+
+// Size Variables
+$xs: 320px;
+$sm: 576px;
+$md: 768px;
+$lg: 1140px;
+$xl: 1400px;
+$xxl: 1920px;
+
+$--bs-gutter-x: 0;
+$image-size: 10px;
+
+$container-max-widths: (
+  xs: $xs,
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+  xxl: $xxl
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl,
+  xxl: $xxl
+);
+
+$size: (
+  border-radius:		4px,
+  border-radius-alt:	0.5rem,
+  border-width:		1px,
+  element-height:		2.75rem,
+  element-margin:		2rem,
+  gutter:				3.5rem,
+  inner:				64rem,
+  padding:			(
+    default:		7rem,
+    xlarge:			5rem,
+    large:			4rem,
+    medium:			3rem,
+    small:			2rem
+  )
+);
+
+// Type Scaling
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.125,1920,18,1.25,5,3,576-768-992-1400-1920&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  --step--3: clamp(0.58rem, calc(0.73rem + -0.13vw), 0.70rem);
+  --step--2: clamp(0.72rem, calc(0.80rem + -0.07vw), 0.79rem);
+  --step--1: clamp(0.89rem, calc(0.89rem + 0.01vw), 0.90rem);
+  --step-0: clamp(1.00rem, calc(0.98rem + 0.13vw), 1.13rem);
+  --step-1: clamp(1.13rem, calc(1.07rem + 0.28vw), 1.41rem);
+  --step-2: clamp(1.27rem, calc(1.17rem + 0.49vw), 1.76rem);
+  --step-3: clamp(1.42rem, calc(1.27rem + 0.77vw), 2.20rem);
+  --step-4: clamp(1.60rem, calc(1.37rem + 1.15vw), 2.75rem);
+  --step-5: clamp(1.80rem, calc(1.48rem + 1.63vw), 3.43rem);
+}

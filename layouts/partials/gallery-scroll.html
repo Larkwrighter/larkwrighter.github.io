@@ -1,0 +1,30 @@
+<!-- Gallery -->
+<section class="gallery-container align-center">
+    <div class="gallery-intro">
+        <h2>{{ .title }}</h2>
+        <p>{{ .content | safeHTML }}</p>
+    </div>
+
+    <!-- Gallery -->
+    <div id="gallery" class="gallery">
+        <div id="scrollLeft" class="forward"></div>
+        <div id="inner" class="inner">
+        {{ range .items }}
+            {{ partial "gallery-item" . }}
+        {{ end }}
+    </div>
+        <div id="scrollRight" class="backward"></div>
+    </div>
+</section>
+<script>
+var $scrollWidth = $('#inner').find('article').width();
+$('#scrollLeft').click(function()
+{
+    $('#inner').animate ( { scrollLeft: '+='+$scrollWidth }, 1000);
+});
+
+$('#scrollRight').click(function()
+{
+    $('#inner').animate ( { scrollLeft: '-='+$scrollWidth }, 1000);
+});
+</script>

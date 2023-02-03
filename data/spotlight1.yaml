@@ -1,0 +1,13 @@
+# Spotlight 1
+title: "Game-based RSE: Curious"
+description: "I'm currently working with Curious, a new digital platform that uses a game-based approach to aid the delivery of relationships and sex education (RSE) in schools.
+<br /><br />
+My work has centred on designing mechanics and gameplay systems that are fun, engaging and accessible, but also communicate the subject material in a sensitive and appropriate way."
+link: "https://www.learnwithcurious.com/"
+target: "_blank"
+button:
+  label: "Find out more"
+  link: "https://www.learnwithcurious.com/"
+image : 
+  img: "img/projects/thumbnails/curious.png"
+  alt: "Screenshot from the Curious prototype, showing a teacher moving around a futuristic classroom."

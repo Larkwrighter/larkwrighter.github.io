@@ -1,0 +1,32 @@
+# Banner
+title: "Interactive fiction"
+content: |
+  I enjoy writing interactive fiction when I get the chance. My work tends to use interactivity subtly, to elevate meaning and emotion or control the pace of a piece, rather than give the reader a great deal of agency in the outcome of the story.
+items:
+  - title: "Those Days"
+    content: "A character-driven interactive fiction piece about childhood memories."
+    thumb: "img/thumbnails/those-days-thumbnail.png"
+    url: "https://larkwrighter.itch.io/those-days"
+    alt: "Cover art for Those Days, showing the silhouette of a tree against a sunset backdrop."
+    target: "_blank"
+
+  - title: "The Insect"
+    content: "A piece about climate change, habitat renewal, and crawling on cadavers."
+    thumb: "img/thumbnails/the-insect-thumbnail.png"
+    url: "https://larkwrighter.itch.io/the-insect"
+    alt: "Screenshot from The Insect, showing a face with insects crawling on it drawn in pixel art."
+    target: "_blank"
+
+  - title: "Reclaiming Solitude"
+    content: "Read a good book. Listen to the radio. Enjoy a moment of solitude."
+    thumb: "img/thumbnails/reclaiming-solitude-thumbnail.png"
+    url: "https://larkwrighter.itch.io/reclaiming-solitude"
+    alt: "Screenshot from Reclaiming Solitude, showing a bedroom drawn in orange pixels."
+    target: "_blank"
+
+  - title: "Book of Cruelty"
+    content: "A horrifying historical document reimagined as interactive fiction."
+    thumb: "img/thumbnails/book-of-cruelty-thumbnail.png"
+    url: "https://larkwrighter.itch.io/book-of-cruelty"
+    alt: "Screenshot from Book of Cruelty, showing a black and white photograph of an eye."
+    target: "_blank"

@@ -1,0 +1,14 @@
+<!-- Gallery -->
+<section class="gallery container align-center">
+    <div class="gallery-header row">
+        <div class="gallery-header-content">
+            <h2><span>{{ .title }}</span></h3>
+            <p>{{ .content | safeHTML }}</p>
+        </div>
+    </div>
+    <div class="gallery-row row">
+        {{ range .items }}
+            {{ partial "gallery-item" . }}
+        {{ end }}
+    </div>
+</section>

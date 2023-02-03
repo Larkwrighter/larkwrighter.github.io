@@ -1,0 +1,18 @@
+# Banner
+title: "George Larkwright"
+subtitle: |
+  Game Designer & Writer
+content: |
+  I specialise in creating interactive experiences at the intersection between games and education, using play to facilitate learning, communicate ideas and explore complex topics in new and engaging ways.
+  <br /><br />
+  I also write interactive stories and more traditional fiction, with a particular fondness for interesting or unusual narrative structures.
+  <br /><br />
+  Want to learn more? <a href="mailto:george.larkwright@gmail.com">Let's chat: george.larkwright@gmail.com</a>
+button:
+  label: "Get in touch: george.larkwright@gmail.com"
+  link: "mailto:george.larkwright@gmail.com"
+image : 
+  img: "img/profile.png"
+  alt: "Headshot image of George Larkwright"
+social:
+  label: 

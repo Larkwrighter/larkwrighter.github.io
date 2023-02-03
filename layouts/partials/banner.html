@@ -1,0 +1,73 @@
+<!-- <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        var currentBannerHeight = document.getElementById("banner").style.height;
+        if (currentScrollPos > currentBannerHeight) {
+            document.getElementById("banner").style.height = "calc(100vh-40px)"; 
+        } else {
+            document.getElementById("banner").style.height = "calc(50vh-40px)"; 
+        }
+    }
+</script>-->
+
+
+<section id="banner" class="banner container">
+    <div class="banner-content row d-flex">
+        <div class="banner-image col-lg-3">
+            {{ with .image }}<img class="align-middle" src="{{.img}}" alt="{{.alt}}">{{end}}
+        </div>
+        <div class="banner-text col-lg-9">
+            {{ with .title }}<h1 class="banner-title"><span>{{ . }}</span></h1>{{ end }}
+            <h2>{{.subtitle | safeHTML }}</h2>
+            <h3>{{.content | safeHTML }}</h3>
+            <!-- <div class="banner-buttons">
+                {{ with .button }}<a class="btn btn-outline-primary" href="{{ .link }}" role="button"><i class="fa fa-envelope fa-md"></i> {{ .label | safeHTML }}</a>{{end}}
+            </div> -->
+        </div>
+    </div>
+</section>
+
+<!-- <section id="banner">
+    <div class="banner-container container d-flex">
+        <div class="banner-content row">
+            <div class="banner-image col-md-3">
+                {{ with .image }}<img class="align-middle" src="{{.img}}" alt="{{.alt}}">{{end}}
+            </div>
+            <div class="banner-text col-md-9">
+                {{ with .title }}<h1 class="banner-title"><span>{{ . }}</span></h1>{{ end }}
+                <h2>{{.subtitle | safeHTML }}</h2>
+                <h3>{{.content | safeHTML }}</h3>
+                <div class="banner-buttons">
+                    {{ with .button }}<a class="btn btn-outline-primary" href="{{ .link }}" role="button"><i class="fa fa-envelope fa-md"></i> {{ .label | safeHTML }}</a>{{end}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<script>
+    var banner = document.getElementById('banner');
+    function fadeOutOnScroll(div) {
+        if (!div) {
+            return;
+        }
+        
+        var distanceToTop = window.pageYOffset + div.getBoundingClientRect().top;
+        var divHeight = div.offsetHeight;
+        var scrollTop = document.documentElement.scrollTop;
+        var opacity = 1;
+        if (scrollTop > distanceToTop) {
+            opacity = 1 - (scrollTop - distanceToTop) / divHeight;
+        }
+        if (opacity >= 0) {
+            div.style.opacity = opacity;
+        }
+    }
+
+    function scrollHandler() {
+        fadeOutOnScroll(banner);
+    }
+
+    window.addEventListener('scroll', scrollHandler);
+</script>

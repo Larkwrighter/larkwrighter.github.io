@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="container index-container">
+	<div class="row">
+		<div class="col-md-12">{{ partial "navbar" }}</div>
+		<div class="col-md-12">{{ partial "banner" site.Data.banner }}</div>
+		<div class="col-md-12"  id="gamesForLearning">{{ partial "section-divider-top" }}</div>
+		<div class="col-md-12">{{ partial "spotlight-1" site.Data.spotlight1 }}</div>
+		<div class="col-md-12">{{ partial "spotlight-2" site.Data.spotlight2 }}</div>
+		<div class="col-md-12">{{ partial "spotlight-left" site.Data.spotlight3 }}</div>
+		<div class="col-md-12">{{ partial "section-divider" }}</div>
+		<div class="col-md-12">{{ partial "gallery" site.Data.games }}</div>
+		<div class="col-md-12">{{ partial "section-divider" }}</div>
+		<div class="col-md-12">{{ partial "spotlight-left" site.Data.exhibition }}</div>
+		<div class="col-md-12" id="interactiveFiction">{{ partial "section-divider" }}</div>
+		<div class="col-md-12">{{ partial "gallery" site.Data.interactiveFiction }}</div>
+		<div class="col-md-12">{{ partial "footer" site.Data.footer }}</div>
+	</div>
+</div>
+{{ end }}

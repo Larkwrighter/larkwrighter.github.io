@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ partial "project-navbar" }}
+<main class="container project-container">
+    <section class="row">
+        <div class="project-content col-md-9 d-flex">
+            <div class="container mobile-force-width">
+                <div class="row">
+                    <div class="project-title col-md-12">
+                        <h1><span>{{ .Title }}</span></h1>
+                        {{ if .Params.subtitle }}<h2>{{ .Params.subtitle }}</h2>{{ end }}
+                        {{ if .Params.visual }}<div class="project-visual">{{ .Params.visual | safeHTML }}</div>{{ end }}
+                        <div class="project-border-title mx-auto"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="project-body col-md-12">
+                        {{ .Content | safeHTML }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ partial "footer" }}
+</main>
+{{ end }}

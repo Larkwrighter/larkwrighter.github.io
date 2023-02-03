@@ -1,0 +1,104 @@
+/* Author */
+.author {
+  position: relative;
+  margin: 40px 0;
+  padding-bottom: 10px;
+  max-width: 80%;
+  margin-left: 10%; }
+  @media (max-width: 767px) {
+    .author {
+      margin: 10px 0;
+      padding-bottom: 10px;
+      max-width: 90vw; } }
+.author__img {
+  display: block;
+  position: relative;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto 40px;
+  margin-right: 2em;
+  margin-top: 1.5em;
+  border-radius: 50%;
+  margin-bottom: 5em;
+  background-color: #f8f8f8;
+  transition: opacity 100ms ease;
+  float: left; }
+  @media (max-width: 767px) {
+    .author__img {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1em; } }
+.author__intro {
+  display: block; }
+
+.author__job {
+  margin-bottom: 15px;
+  font-size: 37px;
+  color: #666; }
+
+.author__bio {
+  display: block;
+  max-width: 75%;
+  margin: 0 auto 30px;
+  font-size: 16px;
+  line-height: 34px;
+  font-size: 26px;
+  font-weight: 400; }
+
+.author__more {
+  display: block;
+  max-width: 75%;
+  margin: 0 auto 30px;
+  line-height: 27px; }
+
+a.say-hello {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 40px;
+  color: #fff;
+  background-color: #6b69fa;
+  transition: all 150ms ease-in-out; }
+  a.say-hello:hover {
+    transform: translate(0px, -5px);
+    box-shadow: 0 10px 20px -4px rgba(30, 28, 122, 0.3); }
+
+a.know-more {
+  margin-left: 25px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #666;
+  text-decoration: underline; }
+  a.know-more:hover {
+    color: #6b69fa; }
+
+.author__actions {
+  margin-top: 20px;
+  margin: 0 auto 20px; }
+  @media (max-width: 1024px) {
+    .author__actions {
+      max-width: 75%; } }
+.author__actions a {
+  color: #de235d;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 6px 8px;
+  border: 2px solid #de235d;
+  border-radius: 4px; }
+
+.author__actions a:hover {
+  color: #fff;
+  background-color: #de235d; }
+
+.author__actions a:active {
+  color: #fff;
+  background-color: #ad1d4a;
+  border: 2px solid #ad1d4a; }

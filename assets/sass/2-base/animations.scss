@@ -1,0 +1,28 @@
+[aos="fade-out"] {
+    opacity: 1;
+    transition-property: opacity;
+}
+
+[aos="fade-out"].aos-animate {
+    opacity: 0;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+      transform: translateY(0.8vh);
+    }
+  
+    100% {
+      transform: translateY(-0.8vh);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(0.8vh);
+    }
+  
+    100% {
+      transform: translateY(-0.8vh);
+    }
+  }

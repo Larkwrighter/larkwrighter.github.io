@@ -1,0 +1,13 @@
+# Spotlight 3
+title: "Encouraging Creativity: Chapter 1"
+description: "An educational exploration game that supports young people to write their own stories.
+<br /><br />
+Players must write solutions to bypass in-game obstacles. The game then uses natural language processing to generate writing prompts based on what the player has already written, providing a structured learning experience whilst also showcasing the power of games as educational tools."
+link: "/projects/chapter-1"
+target: ""
+button:
+  label: Find out more
+  link: "/projects/chapter-1"
+image : 
+  img: "img/projects/thumbnails/chapter-1-thumbnail.png"
+  alt: "Headshot image of George Larkwright"

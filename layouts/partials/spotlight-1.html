@@ -1,0 +1,18 @@
+<section class="spotlight spotlight-left container" id="spotlight-first">
+    <div class="spotlight-container row">
+        <div id="content" class="spotlight-image col-lg-4">
+            <a href="{{ .link }}" target="{{ .target }}">
+                <img src="{{ .image.img }}" alt=" {{ .image.alt }}" />
+             </a>
+        </div>
+        <div class="spotlight-text col-lg-6">
+            <!-- <div class="spotlight-border-top"></div> -->
+            <h2><span>{{ .title }}</span></h2>
+            <p>{{ .description | safeHTML}}</p>
+            <div class="">
+            {{ with .button }}<a href="{{ .link }}" target="{{ .target }}" class="btn btn-primary mb3">{{ .label | safeHTML}}</a>{{ end }}
+        </div>
+        <!-- <div class="spotlight-border-bottom"></div> -->
+        </div>
+    </div>
+</section>
